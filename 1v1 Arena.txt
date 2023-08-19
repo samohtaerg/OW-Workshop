@@ -1,0 +1,7327 @@
+settings
+{
+	lobby
+	{
+		Allow Players Who Are In Queue: Yes
+		Map Rotation: After A Game
+		Max Spectators: 12
+		Max Team 1 Players: 1
+		Max Team 2 Players: 1
+		Return To Lobby: Never
+		Swap Teams After Match: No
+	}
+
+	modes
+	{
+		Control
+		{
+			Capture Speed Modifier: 250%
+			Score To Win: 1
+
+			enabled maps
+			{
+			}
+		}
+
+		Deathmatch
+		{
+			Game Length In Minutes: 8
+			Score To Win: 10
+
+			enabled maps
+			{
+			}
+		}
+
+		Team Deathmatch
+		{
+			Game Length In Minutes: 8
+			Mercy Resurrect Counteracts Kills: Off
+			Score To Win: 10
+			Self Initiated Respawn: Off
+
+			enabled maps
+			{
+				Black Forest
+				Castillo
+				Château Guillard
+				Ecopoint: Antarctica
+				Eichenwalde
+				Hollywood
+				King's Row Winter
+				Lijiang Control Center
+				Lijiang Garden
+				Necropolis
+				Oasis University
+				Paris
+			}
+		}
+
+		General
+		{
+			Allow Hero Switching: Off
+			Health Pack Respawn Time Scalar: 500%
+			Kill Cam: Off
+			Respawn Time Scalar: 60%
+		}
+	}
+
+	heroes
+	{
+		General
+		{
+			Baptiste
+			{
+				Ammunition Clip Size Scalar: 50%
+				Damage Dealt: 65%
+				Damage Received: 95%
+				Healing Received: 18%
+				Immortality Field: Off
+				Jump Vertical Speed: 125%
+				Movement Gravity: 135%
+				Movement Speed: 115%
+				Regenerative Burst: Off
+				Ultimate Duration: 55%
+				Ultimate Generation - Combat Amplification Matrix: 175%
+				Ultimate Generation - Passive Amplification Matrix: 0%
+				Ultimate Generation Amplification Matrix: 175%
+			}
+
+			Bastion
+			{
+				Damage Dealt: 40%
+				Damage Received: 95%
+				Healing Received: 50%
+				Health: 80%
+				Infinite Ultimate Duration: On
+				Jump Vertical Speed: 25%
+				Movement Gravity: 145%
+				Movement Speed: 125%
+				Self-Repair Maximum Time: 50%
+				Self-Repair Recharge Rate: 25%
+				Spawn With Ultimate Ready: On
+				Ultimate Duration: 156%
+				Ultimate Generation - Passive Configuration: Tank: 500%
+			}
+
+			Brigitte
+			{
+				Barrier Shield Cooldown Time: 0%
+				Barrier Shield Recharge Rate: 1%
+				Damage Dealt: 73%
+				Healing Dealt: 85%
+				Healing Received: 40%
+				Health: 90%
+				Jump Vertical Speed: 90%
+				Movement Gravity: 125%
+				Movement Speed: 90%
+				Ultimate Generation - Combat Rally: 225%
+				Ultimate Generation - Passive Rally: 115%
+				Ultimate Generation Rally: 225%
+				Whip Shot Cooldown Time: 140%
+				Whip Shot Knockback Scalar: 49%
+			}
+
+			D.Va
+			{
+				Spawn With Ultimate Ready: On
+				Spawn Without Mech: On
+				Ultimate Generation - Combat Self-Destruct: 500%
+				Ultimate Generation - Passive Self-Destruct: 500%
+				Ultimate Generation Self-Destruct: 500%
+			}
+
+			Doomfist
+			{
+				Ammunition Clip Size Scalar: 25%
+				Ammunition Regeneration Time Scalar: 165%
+				Damage Dealt: 55%
+				Damage Received: 95%
+				Jump Vertical Speed: 130%
+				Movement Gravity: 150%
+				Movement Speed: 120%
+				Rising Uppercut Cooldown Time: 40%
+				Rocket Punch Cooldown Time: 200%
+				Rocket Punch Knockback Scalar: 20%
+				Ultimate Duration: 25%
+				Ultimate Generation - Combat Meteor Strike: 325%
+				Ultimate Generation - Passive Meteor Strike: 0%
+				Ultimate Generation Meteor Strike: 325%
+			}
+
+			Genji
+			{
+				Ammunition Clip Size Scalar: 70%
+				Damage Dealt: 50%
+				Deflect Cooldown Time: 20%
+				Jump Vertical Speed: 70%
+				Movement Gravity: 65%
+				Movement Speed: 85%
+				Swift Strike Cooldown Time: 75%
+				Ultimate Duration: 80%
+				Ultimate Generation - Combat Dragonblade: 300%
+				Ultimate Generation - Passive Dragonblade: 500%
+				Ultimate Generation Dragonblade: 500%
+			}
+
+			Hanzo
+			{
+				Damage Dealt: 50%
+				Jump Vertical Speed: 225%
+				Lunge Cooldown Time: 0%
+				Lunge Distance Scalar: 150%
+				Movement Gravity: 165%
+				Movement Speed: 120%
+				Projectile Speed: 280%
+				Storm Arrows Cooldown Time: 75%
+				Ultimate Generation - Combat Dragonstrike: 0%
+				Ultimate Generation - Passive Dragonstrike: 0%
+				Ultimate Generation Dragonstrike: 10%
+			}
+
+			Junkrat
+			{
+				Concussion Mine Cooldown Time: 0%
+			}
+
+			Lúcio
+			{
+				Damage Dealt: 95%
+				Projectile Speed: 130%
+				Spawn With Ultimate Ready: On
+				Ultimate Generation - Passive Sound Barrier: 500%
+			}
+
+			McCree
+			{
+				Damage Dealt: 70%
+				Ultimate Generation - Combat Deadeye: 150%
+				Ultimate Generation - Passive Deadeye: 0%
+				Ultimate Generation Deadeye: 150%
+			}
+
+			Mei
+			{
+				Cryo-Freeze Cooldown Time: 0%
+			}
+
+			Mercy
+			{
+				Damage Dealt: 30%
+				Healing Received: 30%
+				Jump Vertical Speed: 125%
+				Movement Gravity: 70%
+				Movement Speed: 85%
+				Ultimate Generation - Combat Valkyrie: 350%
+				Ultimate Generation - Passive Valkyrie: 0%
+				Ultimate Generation Valkyrie: 350%
+				Weapons Enabled: Caduceus Staff Only
+			}
+
+			Moira
+			{
+				Biotic Energy Maximum: 20%
+				Biotic Energy Recharge Rate: 0%
+				Damage Dealt: 50%
+				Damage Received: 85%
+				Fade Cooldown Time: 140%
+				Healing Received: 35%
+				Jump Vertical Speed: 75%
+				Movement Gravity: 30%
+				Movement Speed: 90%
+				Projectile Speed: 35%
+				Ultimate Duration: 50%
+				Ultimate Generation - Combat Coalescence: 275%
+				Ultimate Generation - Passive Coalescence: 0%
+				Ultimate Generation Coalescence: 275%
+			}
+
+			Pharah
+			{
+				Concussive Blast Cooldown Time: 50%
+				Damage Dealt: 50%
+				Damage Received: 95%
+				Health: 110%
+				Hover Jets Maximum Time: 65%
+				Hover Jets Recharge Rate: 25%
+				Jump Vertical Speed: 120%
+				Movement Gravity: 90%
+				Movement Speed: 90%
+				Ultimate Generation - Combat Barrage: 275%
+				Ultimate Generation - Passive Barrage: 0%
+				Ultimate Generation Barrage: 275%
+			}
+
+			Reaper
+			{
+				Ammunition Clip Size Scalar: 50%
+				Damage Dealt: 55%
+				Jump Vertical Speed: 105%
+				Movement Gravity: 85%
+				Movement Speed: 95%
+				Ultimate Generation - Combat Death Blossom: 240%
+				Ultimate Generation - Passive Death Blossom: 0%
+				Ultimate Generation Death Blossom: 240%
+				Wraith Form Cooldown Time: 75%
+			}
+
+			Soldier: 76
+			{
+				Ammunition Clip Size Scalar: 70%
+				Biotic Field Cooldown Time: 200%
+				Damage Dealt: 55%
+				Damage Received: 85%
+				Healing Received: 40%
+				Helix Rockets Cooldown Time: 30%
+				Helix Rockets Knockback Scalar: 200%
+				Movement Gravity: 120%
+				Movement Speed: 50%
+				Ultimate Generation - Combat Tactical Visor: 135%
+				Ultimate Generation - Passive Tactical Visor: 0%
+				Ultimate Generation Tactical Visor: 135%
+			}
+
+			Sombra
+			{
+				Ammunition Clip Size Scalar: 75%
+				Damage Dealt: 90%
+				Damage Received: 105%
+				Jump Vertical Speed: 135%
+				Movement Speed: 115%
+				Stealth Cooldown Time: 260%
+				Translocator Cooldown Time: 150%
+				Ultimate Generation - Combat EMP: 225%
+				Ultimate Generation - Passive EMP: 0%
+				Ultimate Generation EMP: 225%
+			}
+
+			Tracer
+			{
+				Blink Cooldown Time: 150%
+				Damage Dealt: 80%
+				Jump Vertical Speed: 80%
+			}
+
+			Widowmaker
+			{
+				Ammunition Clip Size Scalar: 60%
+				Damage Dealt: 70%
+				Grappling Hook Cooldown Time: 0%
+				Jump Vertical Speed: 140%
+				Movement Gravity: 65%
+				Movement Speed: 95%
+				Ultimate Duration: 25%
+				Ultimate Generation - Combat Infra-Sight: 250%
+				Ultimate Generation - Passive Infra-Sight: 0%
+				Ultimate Generation Infra-Sight: 250%
+				Venom Mine Cooldown Time: 80%
+			}
+
+			Winston
+			{
+				Damage Dealt: 85%
+				Health: 50%
+				Infinite Ultimate Duration: On
+				Jump Pack Acceleration Scalar: 60%
+				Jump Pack Cooldown Time: 82%
+				Jump Pack Knockback Scalar: 66%
+				Jump Vertical Speed: 130%
+				Movement Gravity: 140%
+				Movement Speed: 105%
+				Primal Rage Melee Knockback Scalar: 65%
+				Spawn With Ultimate Ready: On
+			}
+
+			Zenyatta
+			{
+				Ammunition Clip Size Scalar: 40%
+				Damage Dealt: 65%
+				Healing Received: 10%
+				Jump Vertical Speed: 130%
+				Movement Speed: 85%
+				Projectile Speed: 125%
+				Ultimate Generation - Combat Transcendence: 300%
+				Ultimate Generation - Passive Transcendence: 0%
+				Ultimate Generation Transcendence: 300%
+			}
+
+			enabled heroes
+			{
+				Baptiste
+				Brigitte
+				Doomfist
+				Genji
+				Hanzo
+				McCree
+				Mercy
+				Moira
+				Pharah
+				Reaper
+				Soldier: 76
+				Sombra
+				Widowmaker
+				Winston
+				Zenyatta
+			}
+		}
+	}
+
+	extensions
+	{
+		Beam Effects
+		Buff Status Effects
+		Debuff Status Effects
+		Buff and Debuff Sounds
+		Energy Explosion Effects
+		Kinetic Explosion Effects
+		Explosion Sounds
+		Play More Effects
+	}
+}
+
+variables
+{
+	player:
+		0: Direction
+		1: Zoom
+		2: ProjectileSpeed
+		4: TargetPos
+		5: ProjectileDirection
+		26: eye_pos
+		27: speed
+		28: vel
+		29: mass
+		30: grav
+		31: delta
+		33: pull
+		34: force
+		35: AJ
+		36: AK
+		37: AL
+		38: AM
+		47: succ_target
+}
+
+disabled rule("大招时间")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		disabled Is Game In Progress == True;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, 100);
+	}
+}
+
+
+rule("test max ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, 100);
+	}
+}
+
+disabled rule("test damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Primary Fire)) == True;
+	}
+
+	actions
+	{
+		Damage(Event Player, Event Player, 150);
+	}
+}
+
+disabled rule("test dummy")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		disabled Create Dummy Bot(Hero(Moira), Opposite Team Of(Team Of(Event Player)), -1, Position Of(Event Player), Facing Direction Of(
+			Event Player));
+		disabled Create Dummy Bot(Hero(Doomfist), Opposite Team Of(Team Of(Event Player)), -1, Eye Position(Event Player), Facing Direction Of(
+			Event Player));
+		Create Dummy Bot(Hero(Sombra), Opposite Team Of(Team Of(Event Player)), -1, Eye Position(Event Player), Facing Direction Of(
+			Event Player));
+	}
+}
+
+disabled rule("test action")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Start Holding Button(Closest Player To(Vector(0, 0, 0), Opposite Team Of(Team Of(Event Player))), Button(Secondary Fire));
+		Wait(0.250, Ignore Condition);
+		Stop Holding Button(Event Player, Button(Ability 2));
+	}
+}
+
+disabled rule("test HUD")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.T = 5;
+		Chase Player Variable At Rate(Event Player, T, 0, 1, None);
+		Create HUD Text(All Players(All Teams), String("-> {0}", Speed Of(Event Player)), Null, Null, Left, 0, Color(White), Color(White),
+			Color(White), Visible To and String, Default Visibility);
+	}
+}
+
+disabled rule("test camera")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Start Camera(Event Player, Position Of(Event Player) + Facing Direction Of(Event Player) * -3.800 + Vector(0, 2, 0), Position Of(
+			Event Player) + Vector(0, 1, 0), 25);
+	}
+}
+
+rule("global control spawn speed boost")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+		Has Spawned(Event Player) == True;
+		Current Game Mode == Game Mode(Control);
+		Is In Spawn Room(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, 200);
+		Wait(6, Ignore Condition);
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("global health pack stops dots")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Was Health Pack == True;
+	}
+
+	actions
+	{
+		Stop All Damage Over Time(Event Player);
+	}
+}
+
+rule("global hud text fallback")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Wait(5, Ignore Condition);
+		Destroy All HUD Text;
+		Loop;
+	}
+}
+
+rule("global damage text")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Skip If(Event Was Critical Hit == True, 1);
+		Create In-World Text(Event Player, Round To Integer(Event Damage, To Nearest), Victim, 2, Do Not Clip,
+			Visible To Position and String, Color(White), Default Visibility);
+		Skip If(Event Was Critical Hit == False, 1);
+		Create In-World Text(Event Player, Round To Integer(Event Damage, To Nearest), Ray Cast Hit Position(Event Player, Victim,
+			All Players(All Teams), Event Player, True), 3, Do Not Clip, Visible To and String, Color(Yellow), Default Visibility);
+	}
+}
+
+rule("global DEstroy damage text")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Wait(0.160, Ignore Condition);
+		Destroy All In-World Text;
+	}
+}
+
+rule("reaper ult percent damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 0;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 85 + Ultimate Charge Percent(Event Player) / 100 * 100);
+		Wait(0.500, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("reaper ult percent healing")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 1;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Healing Received(Event Player, 100 + Ultimate Charge Percent(Event Player) / 110 * 20);
+		Wait(0.500, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("reaper dam phase")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+		Event Player.Direction == 0;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, 150);
+		Wait(0.750, Ignore Condition);
+		Press Button(Event Player, Button(Primary Fire));
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("reaper takes phase damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+		Event Player.Direction == 1;
+	}
+
+	actions
+	{
+		Wait(3, Ignore Condition);
+		Damage(Event Player, Null, 40);
+	}
+}
+
+rule("reaper beam")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) <= 7.500;
+	}
+
+	actions
+	{
+		Event Player.grav = 1;
+		Create Beam Effect(All Players(All Teams), Zarya Particle Beam, Event Player, Closest Player To(Event Player, Opposite Team Of(
+			Team Of(Event Player))), Color(Purple), Visible To Position and Radius);
+		Event Player.AK = Last Created Entity;
+		Wait(0.672, Ignore Condition);
+		Set Status(Event Player, Null, Stunned, 0.016);
+		Wait(2, Ignore Condition);
+		Skip If(Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) > 7.500, 1);
+		Set Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned, 1);
+		Destroy Effect(Event Player.AK);
+		Event Player.grav = 0;
+	}
+}
+
+rule("reaper damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 0;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.AL);
+		Destroy HUD Text(Event Player.H);
+		Play Effect(All Players(Team Of(Event Player)), Sombra Logo Sound, Color(White), Event Player, 125);
+		Set Healing Received(Event Player, 0);
+		Create HUD Text(Event Player, String("Damage"), Null, Null, Left, 0, Color(Red), Color(Red), Color(Red), Visible To and String,
+			Default Visibility);
+		Event Player.D = Last Text ID;
+		Create Effect(All Players(All Teams), Reaper Wraith Form Effect, Color(White), Event Player, 1, Visible To Position and Radius);
+		Event Player.AL = Last Created Entity;
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("reaper healing")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 1;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.AL);
+		Play Effect(All Players(Team Of(Event Player)), Sombra Logo Sound, Color(White), Event Player, 125);
+		Destroy HUD Text(Event Player.D);
+		Set Damage Dealt(Event Player, 100);
+		disabled Set Healing Received(Event Player, 100 + Ultimate Charge Percent(Event Player) / 110 * 20);
+		Create HUD Text(Event Player, String("Healing"), Null, Null, Left, 0, Color(Green), Color(Green), Color(Green),
+			Visible To and String, Default Visibility);
+		Event Player.H = Last Text ID;
+		Create Effect(All Players(All Teams), Baptiste Immortality Field Protected Effect, Color(White), Event Player, 1,
+			Visible To Position and Radius);
+		Event Player.AL = Last Created Entity;
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("reaper self damage")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 0;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Damage(Event Player, Null, Event Damage * 0.250);
+	}
+}
+
+rule("reaper add 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		Event Player.Direction += 1;
+	}
+}
+
+rule("reaper 0")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Event Player.Direction == 2;
+	}
+
+	actions
+	{
+		Event Player.Direction = 0;
+	}
+}
+
+rule("reaper hit stun")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Event Player.Direction == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), Distance Between(Event Player.J, Victim) * 1.250, To World,
+			Cancel Contrary Motion);
+		Set Status(Victim, Event Player, Stunned, 0.300 / Max(1, Distance Between(Event Player, Victim)));
+		Set Healing Received(Victim, 10);
+		Wait(0.250, Ignore Condition);
+		Set Healing Received(Victim, 100);
+	}
+}
+
+rule("reaper invis if still")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Standing(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(4.750, Ignore Condition);
+		Skip If(Event Player.grav == 1, 8);
+		Skip If(Is Standing(Event Player) == False, 7);
+		Set Status(Event Player, Null, Rooted, 0.250);
+		Play Effect(All Players(All Teams), Moira Fade Disappear Effect, Color(White), Event Player, 1);
+		Wait(0.250, Ignore Condition);
+		Start Damage Over Time(Event Player, Null, 9999, 6);
+		Set Invisible(Event Player, All);
+		Create HUD Text(Event Player, Custom String("Invisible"), Null, Null, Left, 0, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Event Player.I = Last Text ID;
+	}
+}
+
+rule("reaper cleanse if moving")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		(Is Moving(Event Player) || Is Firing Primary(Event Player)) == True;
+		Is Using Ability 1(Event Player) == False;
+	}
+
+	actions
+	{
+		Stop All Damage Over Time(Event Player);
+		Set Invisible(Event Player, None);
+		Destroy HUD Text(Event Player.I);
+	}
+}
+
+rule("reaper reduced ult damage")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Damage Received(Victim, 30);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("reaper damage reset")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Damage Received(Victim, 100);
+	}
+}
+
+rule("reaper ult cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Stunned, 0.016);
+		Destroy All Effects;
+	}
+}
+
+rule("reaper heal ult kb")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Event Player.Direction == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player.J, 5, To World,
+			Cancel Contrary Motion);
+		Set Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Null, Stunned, 0.200);
+	}
+}
+
+rule("reaper heal ult up")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Reaper;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Event Player.Direction == 1;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Up, 15, To World, Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Set Status(Event Player, Null, Stunned, 0.016);
+	}
+}
+
+rule("zen ult aoe")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.P = Eye Position(Event Player);
+		Damage(Players Within Radius(Event Player.P, 10, All Teams, Off), Event Player, 20 / Distance Between(Position Of(Event Player),
+			Players Within Radius(Event Player.P, 10, All Teams, Off)));
+		Wait(0.250, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("zen set tele vari")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) != True;
+	}
+
+	actions
+	{
+		Event Player.Direction = Nearest Walkable Position(Position Of(Victim));
+		Event Player.Z = 1;
+		Skip If(Event Player.W == 1, 1);
+		Event Player.Q = Eye Position(Event Player);
+		Wait(1, Ignore Condition);
+		Event Player.Z = 0;
+		Skip If(Event Player.X == 1, 1);
+	}
+}
+
+rule("zen re-tele condition")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Event Player.X == 1;
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Primary Fire));
+		Play Effect(All Players(All Teams), Sombra Translocating Material Effect, Color(White), Event Player, 1);
+		Wait(0.340, Ignore Condition);
+		Teleport(Event Player, Event Player.Q);
+		Allow Button(Event Player, Button(Primary Fire));
+		Event Player.X = 0;
+	}
+}
+
+rule("zen tele condition")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Event Player.Z == 1;
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Primary Fire));
+		Play Effect(All Players(All Teams), Sombra Translocating Material Effect, Color(White), Event Player, 1);
+		Destroy All HUD Text;
+		Wait(0.340, Ignore Condition);
+		Allow Button(Event Player, Button(Primary Fire));
+		Teleport(Event Player, Event Player.Direction);
+		Event Player.X = 1;
+		Create HUD Text(All Players(All Teams), Custom String("E to reteleport"), Null, Null, Left, 0, Color(White), Color(White), Color(
+			White), Visible To and String, Default Visibility);
+		Wait(0.500, Ignore Condition);
+		Destroy All HUD Text;
+		Wait(0.750, Ignore Condition);
+		Event Player.X = 0;
+	}
+}
+
+rule("zen airial kb")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is In Air(Victim) == True;
+		Event Player.L == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), 18, To World, Cancel Contrary Motion);
+	}
+}
+
+rule("zen shine")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Is Using Ultimate(Event Player) != True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Create Effect(All Players(All Teams), Sphere, Color(Yellow), Event Player, 2.500, Position and Radius);
+		Event Player.succ_target = Last Created Entity;
+		Set Status(Event Player, Null, Stunned, 0.250);
+		Skip If(Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) > 2.500, 6);
+		Event Player.W = 1;
+		Damage(Closest Player To(Event Player.D, Opposite Team Of(Team Of(Event Player))), Event Player, 20);
+		Event Player.Y = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Facing Direction Of(Event Player),
+			Distance Between(Event Player.Y, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) * 10, To World,
+			Cancel Contrary Motion);
+		Set Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned, 1.500);
+		Wait(0.250, Ignore Condition);
+		Event Player.W = 0;
+		Destroy Effect(Event Player.succ_target);
+		Event Player.ProjectileSpeed = 0;
+		Event Player.T = 3;
+		Chase Player Variable At Rate(Event Player, T, 0, 1, None);
+		Create HUD Text(Event Player, Null, String("Cooldown"), Event Player.T, Left, 5, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Event Player.D = 0;
+		Wait(3, Ignore Condition);
+		Destroy HUD Text(Last Text ID);
+	}
+}
+
+rule("zenyatta disable abilities")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	actions
+	{
+		Set Ability 1 Enabled(Event Player, False);
+		Set Ability 2 Enabled(Event Player, False);
+		Set Secondary Fire Enabled(Event Player, False);
+	}
+}
+
+rule("zenyatta hover")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Altitude Of(Event Player) < 6.500;
+		Is Button Held(Event Player, Button(Jump)) == True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Ring Explosion, Color(White), Event Player, 1);
+		Apply Impulse(Event Player, Up, 4, To World, Incorporate Contrary Motion);
+		Set Gravity(Event Player, 60);
+	}
+}
+
+rule("zenyatta hover down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Down, 3.500, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("zenyatta alt orb")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Event Player.ProjectileSpeed = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 1000, All Players(All Teams), Event Player, True);
+		Event Player.D = Eye Position(Event Player);
+		Create Effect(All Players(All Teams), Orb, Color(Purple), Event Player.D, 2, Position and Radius);
+		Chase Player Variable At Rate(Event Player, D, Event Player.ProjectileSpeed, 50, Destination and Rate);
+		Wait(2, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("zenyatta akt orb dmg")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.ProjectileSpeed, All Players(Opposite Team Of(Team Of(Event Player)))) < 1;
+		Distance Between(Event Player.ProjectileSpeed, All Players(Opposite Team Of(Team Of(Event Player)))) > 0;
+		Event Player.L == 0;
+	}
+
+	actions
+	{
+		Damage(Closest Player To(Event Player.D, Opposite Team Of(Team Of(Event Player))), Event Player, 40);
+	}
+}
+
+rule("zen orb impulse")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Zenyatta;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Zarya Particle Cannon Explosion Sound, Color(White), Event Player.ProjectileSpeed, 5200);
+		Play Effect(All Players(All Teams), Sigma Hypersphere Implosion Effect, Color(White), Event Player.ProjectileSpeed, 1);
+		Play Effect(All Players(All Teams), Good Pickup Effect, Color(Purple), Event Player.ProjectileSpeed, 1);
+		Wait(0.200, Ignore Condition);
+		Skip If(Distance Between(Event Player.ProjectileSpeed, Closest Player To(Event Player.ProjectileSpeed, Opposite Team Of(Team Of(
+			Event Player)))) > 2, 4);
+		Event Player.L = 1;
+		Apply Impulse(Players Within Radius(Event Player.ProjectileSpeed, 3, All Teams, Off), Up, 7, To World, Cancel Contrary Motion);
+		Set Status(Players Within Radius(Event Player.ProjectileSpeed, 3, All Teams, Off), Null, Stunned, 0.500);
+		Wait(1.500, Ignore Condition);
+		Event Player.L = 0;
+		Wait(0.900, Ignore Condition);
+	}
+}
+
+rule("brig bomb Init")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.ProjectileSpeed = 15;
+		Event Player.Direction = -50;
+		Event Player.Zoom = Vector(0, 0, 0);
+		Create Effect(All Players(All Teams), Orb, Color(Orange), Vector(X Component Of(Event Player.Zoom), Event Player.Direction,
+			Z Component Of(Event Player.Zoom)), 1, Visible To Position and Radius);
+	}
+}
+
+rule("brig bomb Shoot Proj Up")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Event Player.ProjectileDirection = Facing Direction Of(Event Player);
+		Event Player.Direction = Y Component Of(Eye Position(Event Player));
+		Event Player.TargetPos = Eye Position(Event Player) + Facing Direction Of(Event Player) * 500;
+		Event Player.Zoom = Position Of(Event Player);
+		If(Vertical Facing Angle Of(Event Player) <= 0);
+			Event Player.ProjectileSpeed = -1 / 9 * Vertical Facing Angle Of(Event Player) + 10;
+		Else;
+			Event Player.ProjectileSpeed = 8;
+		End;
+		Wait(0.025, Ignore Condition);
+		Chase Player Variable At Rate(Event Player, ProjectileSpeed, 0, 25, None);
+		Chase Player Variable At Rate(Event Player, Direction, 500, Event Player.ProjectileSpeed, Destination and Rate);
+		If(Vertical Facing Angle Of(Event Player) <= 0);
+			Chase Player Variable At Rate(Event Player, Zoom, Event Player.TargetPos, -1 / 9 * Vertical Facing Angle Of(Event Player) + 15,
+				None);
+		Else;
+			Chase Player Variable At Rate(Event Player, Zoom, Event Player.TargetPos, 10, None);
+		End;
+		Wait(6.500, Ignore Condition);
+	}
+}
+
+rule("brig bomb Proj Down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Event Player.ProjectileSpeed == 0;
+	}
+
+	actions
+	{
+		Chase Player Variable At Rate(Event Player, ProjectileSpeed, 100, 25, None);
+		Chase Player Variable At Rate(Event Player, Direction, -500, Event Player.ProjectileSpeed, Destination and Rate);
+	}
+}
+
+rule("brig bomb Proj Explode (Bottom)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Distance Between(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			Ray Cast Hit Position(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			Vector(0, -500, 0), All Players(Opposite Team Of(Team Of(Event Player))), Event Player, True)) < 0.500;
+	}
+
+	actions
+	{
+		Stop Chasing Player Variable(Event Player, ProjectileSpeed);
+		Stop Chasing Player Variable(Event Player, Direction);
+		Stop Chasing Player Variable(Event Player, Zoom);
+		Play Effect(All Players(All Teams), Good Pickup Effect, Color(Orange), Vector(X Component Of(Event Player.Zoom),
+			Event Player.Direction, Z Component Of(Event Player.Zoom)), 6);
+		Play Effect(All Players(All Teams), Ring Explosion Sound, Color(Orange), Vector(X Component Of(Event Player.Zoom),
+			Event Player.Direction, Z Component Of(Event Player.Zoom)), 100);
+		Damage(Players Within Radius(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			3, All Teams, Surfaces), Event Player, 50);
+		Apply Impulse(Players Within Radius(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(
+			Event Player.Zoom)), 3, All Teams, Surfaces), Up, 5, To World, Incorporate Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Event Player.Direction = -50;
+	}
+}
+
+rule("brig bomb Proj Explode (Side)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Distance Between(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			Ray Cast Hit Position(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom))
+			+ Event Player.ProjectileDirection, All Players(Opposite Team Of(Team Of(Event Player))), Event Player, True)) < 0.500;
+	}
+
+	actions
+	{
+		Stop Chasing Player Variable(Event Player, ProjectileSpeed);
+		Stop Chasing Player Variable(Event Player, Direction);
+		Stop Chasing Player Variable(Event Player, Zoom);
+		Play Effect(All Players(All Teams), Bad Pickup Effect, Color(Orange), Vector(X Component Of(Event Player.Zoom),
+			Event Player.Direction, Z Component Of(Event Player.Zoom)), 6);
+		Play Effect(All Players(All Teams), Ring Explosion Sound, Color(Orange), Vector(X Component Of(Event Player.Zoom),
+			Event Player.Direction, Z Component Of(Event Player.Zoom)), 100);
+		Damage(Players Within Radius(Vector(X Component Of(Event Player.Zoom), Event Player.Direction, Z Component Of(Event Player.Zoom)),
+			3, All Teams, Surfaces), Event Player, 25);
+		Wait(0.250, Ignore Condition);
+		Event Player.Direction = -50;
+	}
+}
+
+rule("brig health")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Event Was Health Pack == True;
+	}
+
+	actions
+	{
+		Heal(Event Player, Null, 50);
+	}
+}
+
+rule("brig grapple hit")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Ray Cast Hit Player(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 20, All Players(
+			All Teams), Event Player, True) == True;
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Event Player.O == 0;
+		Distance Between(Position Of(Event Player), Position Of(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))))
+			< 20;
+		Is Button Held(Event Player, Button(Secondary Fire)) == False;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+	}
+
+	actions
+	{
+		Create Beam Effect(All Players(All Teams), Junkrat Trap Chain Beam, Event Player, Player Closest To Reticle(Event Player,
+			Opposite Team Of(Team Of(Event Player))), Color(White), Visible To Position and Radius);
+		Event Player.O = 1;
+		Event Player.R = Last Created Entity;
+		Wait(0.500, Ignore Condition);
+		Destroy Effect(Event Player.R);
+		Set Status(Player Closest To Reticle(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned, 0.320);
+		Apply Impulse(Player Closest To Reticle(Event Player, Opposite Team Of(Team Of(Event Player))), Direction Towards(
+			Player Closest To Reticle(Event Player, Opposite Team Of(Team Of(Event Player))), Position Of(Event Player)) + Vector(0, 0.800,
+			0), 12, To World, Cancel Contrary Motion);
+		Wait(5, Ignore Condition);
+		Event Player.O = 0;
+	}
+}
+
+rule("brig grapple miss")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Ray Cast Hit Player(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 20, All Players(
+			All Teams), Event Player, True) == False;
+		Event Player.O == 0;
+		Is Button Held(Event Player, Button(Secondary Fire)) == False;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+	}
+
+	actions
+	{
+		Event Player.M = Eye Position(Event Player);
+		Event Player.N = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 20, Null, Event Player, True);
+		Create Beam Effect(All Players(All Teams), Junkrat Trap Chain Beam, Eye Position(Event Player) + Down, Event Player.M, Color(
+			White), Visible To Position and Radius);
+		Event Player.S = Last Created Entity;
+		Chase Player Variable At Rate(Event Player, M, Event Player.N, 8, Destination and Rate);
+		Event Player.O = 1;
+		Wait(0.350, Ignore Condition);
+		Set Status(Event Player, Null, Knocked Down, 0.500);
+		Destroy Effect(Event Player.S);
+		Wait(5, Ignore Condition);
+		Event Player.O = 0;
+	}
+}
+
+rule("brigitte ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Brigitte Repair Pack Armor Effect, Color(White), Event Player, 1);
+		Wait(0.240, Ignore Condition);
+		Set Status(Players Within Radius(Event Player, 8, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Burning, 5);
+		Apply Impulse(Players Within Radius(Event Player, 8, Opposite Team Of(Team Of(Event Player)), Off), Direction Towards(
+			Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Position Of(Event Player)) + Vector(0, 0.150, 0), 20,
+			To World, Cancel Contrary Motion);
+		Set Status(Players Within Radius(Event Player, 8, Opposite Team Of(Team Of(Event Player)), Off), Null, Rooted, 0.500);
+	}
+}
+
+rule("brigitte invencible sheild dash")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+	}
+
+	actions
+	{
+		Wait(0.064, Ignore Condition);
+		Set Status(Event Player, Null, Invincible, 0.112);
+	}
+}
+
+rule("brigitte Trace")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Is Crouching(Event Player), 2);
+		Event Player.Direction = Position Of(Event Player) + Vector(0, 1.600, 0);
+		Skip(1);
+		Event Player.Direction = Position Of(Event Player) + Vector(0, 1.130, 0);
+		Event Player.Zoom = 0;
+		Event Player.ProjectileSpeed = 21;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 2);
+		Event Player.ProjectileSpeed = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip(1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 2);
+		Event Player.ProjectileSpeed = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip(1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 2);
+		Event Player.ProjectileSpeed = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip(1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 2);
+		Event Player.ProjectileSpeed = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip(1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 2);
+		Event Player.ProjectileSpeed = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip(1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Skip If(Is In Line of Sight(Event Player.Direction, Event Player.Direction + Facing Direction Of(Event Player) * ((
+			Event Player.Zoom + Event Player.ProjectileSpeed) / 2), Barriers Do Not Block LOS), 1);
+		Event Player.Zoom = (Event Player.Zoom + Event Player.ProjectileSpeed) / 2;
+		Event Player.D = Position Of(Event Player) + Facing Direction Of(Event Player) * Event Player.Zoom;
+		Event Player.ProjectileDirection = True;
+		Event Player.TargetPos = Total Time Elapsed + Event Player.Zoom / 60 + 0.100;
+		Event Player.G = Event Player.TargetPos;
+	}
+}
+
+rule("brigitte Start Pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Event Player.ProjectileDirection == True;
+		Total Time Elapsed >= Event Player.TargetPos;
+	}
+
+	actions
+	{
+		Set Gravity(Event Player, 0);
+		Set Status(Event Player, Null, Rooted, 9999);
+		Event Player.J = Direction Towards(Position Of(Event Player), Event Player.D);
+		Event Player.J = Direction Towards(Position Of(Event Player), Event Player.D);
+	}
+}
+
+rule("brigitte End Pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Event Player.ProjectileDirection == True;
+		Total Time Elapsed >= Event Player.TargetPos;
+		(Distance Between(Position Of(Event Player), Event Player.D) <= 1 || Dot Product(Event Player.J, Direction Towards(Position Of(
+			Event Player), Event Player.D)) <= 0 || Total Time Elapsed - Event Player.TargetPos > 0.500) == True;
+	}
+
+	actions
+	{
+		Event Player.ProjectileDirection = False;
+		Event Player.H = Total Time Elapsed + 0.170;
+		Event Player.G = Total Time Elapsed;
+		Set Gravity(Event Player, 100);
+		Clear Status(Event Player, Rooted);
+	}
+}
+
+rule("brigitte Pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Event Player.ProjectileDirection == True;
+		Total Time Elapsed >= Event Player.G;
+	}
+
+	actions
+	{
+		Event Player.X = Direction Towards(Position Of(Event Player), Event Player.D);
+		Skip If(!Is On Ground(Event Player) || Y Component Of(Event Player.X) >= 0, 1);
+		Event Player.X = Normalize(Event Player.X * Vector(1, 0, 1));
+		Event Player.Z = Event Player.X * 40 - Velocity Of(Event Player);
+		Apply Impulse(Event Player, Normalize(Event Player.Z), Square Root(Dot Product(Event Player.Z, Event Player.Z)), To World,
+			Incorporate Contrary Motion);
+		Event Player.G = Total Time Elapsed + 0.050;
+	}
+}
+
+rule("brigitte Force slow after pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Total Time Elapsed <= Event Player.H;
+		Total Time Elapsed >= Event Player.G;
+	}
+
+	actions
+	{
+		Event Player.X = Event Player.J * 10;
+		Event Player.Z = Event Player.X - Velocity Of(Event Player);
+		Apply Impulse(Event Player, Normalize(Event Player.Z), Square Root(Dot Product(Event Player.Z, Event Player.Z)), To World,
+			Incorporate Contrary Motion);
+		Event Player.G = Total Time Elapsed + 0.050;
+	}
+}
+
+rule("brigitte proc fire")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Has Status(Victim, Burning) == True;
+	}
+
+	actions
+	{
+		Damage(Victim, Event Player, 25);
+		Clear Status(Victim, Burning);
+	}
+}
+
+rule("brigitte set fire")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Brigitte;
+	}
+
+	conditions
+	{
+		(Is Firing Secondary(Event Player) || Is Using Ability 1(Event Player)) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Null, Burning, 3);
+	}
+}
+
+rule("pharah ult damage reduction")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 15);
+		Wait(0.160, Ignore Condition);
+		Loop If Condition Is True;
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("pharah flamethrower")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Hacked) != True;
+		Is Button Held(Event Player, Button(Primary Fire)) == False;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Moira Fade Disappear Sound, Color(White), Event Player, 15);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Skip If(Distance Between(Position Of(Event Player), Position Of(Players in View Angle(Event Player, Opposite Team Of(Team Of(
+			Event Player)), 25))) > 4, 2);
+		Set Status(Players in View Angle(Event Player, Opposite Team Of(Team Of(Event Player)), 25), Event Player, Burning, 0.016);
+		Damage(Players in View Angle(Event Player, Opposite Team Of(Team Of(Event Player)), 25), Event Player, 2);
+		Skip If(Event Player.ProjectileSpeed == 1, 9);
+		Create Effect(All Players(All Teams), Cloud, Color(Red), Event Player.J, 1, Visible To Position and Radius);
+		Event Player.Direction = Last Created Entity;
+		Create Effect(All Players(All Teams), Cloud, Color(Red), Event Player.J, 1, Visible To Position and Radius);
+		Event Player.TargetPos = Last Created Entity;
+		Create Effect(All Players(All Teams), Cloud, Color(Red), Event Player.J, 0.600, Visible To Position and Radius);
+		Event Player.ProjectileDirection = Last Created Entity;
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.J, 0.600, Visible To Position and Radius);
+		Event Player.Zoom = Last Created Entity;
+		Event Player.ProjectileSpeed = 1;
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Destroy Effect(Event Player.Direction);
+		Destroy Effect(Event Player.Zoom);
+		Destroy Effect(Event Player.TargetPos);
+		Destroy Effect(Event Player.ProjectileDirection);
+		Event Player.ProjectileSpeed = 0;
+		Play Effect(All Players(All Teams), Moira Fade Reappear Sound, Color(White), Event Player, 15);
+	}
+}
+
+rule("pharah left boost")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Need Healing) == True;
+		Is In Air(Event Player) == True;
+		Event Player.L == 0;
+	}
+
+	actions
+	{
+		Event Player.L = 1;
+		Apply Impulse(Event Player, Left, 25, To Player, Incorporate Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Stop Accelerating(Event Player);
+		Wait(2, Ignore Condition);
+		Event Player.L = 0;
+	}
+}
+
+rule("pharah right boost")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Acknowledge) == True;
+		Is In Air(Event Player) == True;
+		Event Player.R == 0;
+	}
+
+	actions
+	{
+		Event Player.R = 1;
+		Apply Impulse(Event Player, Right, 25, To Player, Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Stop Accelerating(Event Player);
+		Wait(2, Ignore Condition);
+		Event Player.R = 0;
+	}
+}
+
+rule("pharah base proj text")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Total Time Elapsed <= 5, 1);
+		Create HUD Text(Event Player, Custom String("Projectile Speed 100 m/s "), Null, Null, Left, 0, Color(White), Color(White), Color(
+			White), Visible To and String, Default Visibility);
+		Disallow Button(Event Player, Button(Secondary Fire));
+	}
+}
+
+rule("pharah mine detonate")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Event Player.I == 1;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is Using Ultimate(Event Player) != True;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+	}
+
+	actions
+	{
+		Damage(Players Within Radius(Event Player.AJ, 3, All Teams, Surfaces), Event Player, 60);
+		Play Effect(All Players(All Teams), Baptiste Biotic Launcher Explosion Sound, Color(White), Event Player.AJ, 200);
+		Play Effect(All Players(All Teams), Bad Explosion, Color(White), Up + Event Player.AJ, 1);
+		Set Status(Players Within Radius(Event Player.AJ, 3, All Teams, Surfaces), Event Player, Stunned, 0.480);
+		Wait(0.120, Ignore Condition);
+		Apply Impulse(Players Within Radius(Event Player.AJ, 3, All Teams, Surfaces), Up, 7.500, To World, Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Event Player.I = 0;
+		Destroy All Effects;
+	}
+}
+
+rule("pharah set mine")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) < 3;
+		Event Player.I == 0;
+		Is Button Held(Event Player, Button(Melee)) == True;
+	}
+
+	actions
+	{
+		Event Player.AJ = Position Of(Victim);
+		Skip If(Event Player.I == 1, 2);
+		Create Effect(All Players(All Teams), Sphere, Color(Red), Position Of(Victim) + Vector(0, 1, 0), 0.200,
+			Visible To Position and Radius);
+		Event Player.I = 1;
+		Wait(0.016, Ignore Condition);
+		Loop If(Event Player.I == 1);
+	}
+}
+
+rule("pharah death mine")
+{
+	event
+	{
+		Player Dealt Final Blow;
+		All;
+		Pharah;
+	}
+
+	actions
+	{
+		Event Player.I = 0;
+		Destroy All Effects;
+	}
+}
+
+rule("parah missle speed")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.Z != 0, 8);
+		Wait(0.016, Ignore Condition);
+		Destroy HUD Text(Last Text ID);
+		Event Player.Z = 1;
+		Play Effect(All Players(Team Of(Event Player)), Sombra Translocating Sound, Color(White), Event Player, 150);
+		Set Projectile Speed(Event Player, 125);
+		Set Damage Dealt(Event Player, 75);
+		Create HUD Text(All Players(All Teams), String("{0} m/s", 150), Null, Null, Left, 0, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Skip(17);
+		Skip If(Event Player.Z != 1, 8);
+		Wait(0.016, Ignore Condition);
+		Destroy HUD Text(Last Text ID);
+		Event Player.Z = 2;
+		Play Effect(All Players(Team Of(Event Player)), Sombra Translocating Sound, Color(White), Event Player, 125);
+		Set Projectile Speed(Event Player, 25);
+		Set Damage Dealt(Event Player, 150);
+		Create HUD Text(All Players(All Teams), String("{0} m/s", 25), Null, Null, Left, 0, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Skip(8);
+		Skip If(Event Player.Z != 2, 7);
+		Wait(0.016, Ignore Condition);
+		Destroy HUD Text(Last Text ID);
+		Event Player.Z = 0;
+		Play Effect(All Players(Team Of(Event Player)), Sombra Translocating Sound, Color(White), Event Player, 125);
+		Set Projectile Speed(Event Player, 100);
+		Set Damage Dealt(Event Player, 100);
+		Create HUD Text(All Players(All Teams), String("{0} m/s", 100), Null, Null, Left, 0, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+	}
+}
+
+rule("pharah ult stop")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Knocked Down, 0.320);
+	}
+}
+
+rule("parah ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Aim Speed(Event Player, 0);
+		Set Projectile Speed(Event Player, 20);
+		Event Player.Direction = Facing Direction Of(Event Player) / 8;
+		Event Player.Zoom = Position Of(Event Player);
+		Event Player.ProjectileSpeed = Event Player.Direction + Event Player.Zoom;
+		Teleport(Event Player, Event Player.ProjectileSpeed);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Projectile Speed(Event Player, 100);
+		Set Aim Speed(Event Player, 100);
+	}
+}
+
+rule("pharah hover down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is In Air(Event Player) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Down, 3.500, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("pharah drift glitch \"fix\"")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Altitude Of(Event Player) > 10;
+	}
+
+	actions
+	{
+		Set Gravity(Event Player, 100);
+	}
+}
+
+rule("pharah air speed/gravity")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is In Air(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Gravity(Event Player, 10 / Min(Altitude Of(Event Player), 10));
+		Set Move Speed(Event Player, 150);
+	}
+}
+
+rule("pharah ground")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Pharah;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, 100);
+		Set Gravity(Event Player, 100);
+	}
+}
+
+disabled rule("sombra ray bounce")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		Event Player.eye_pos = Ray Cast Hit Normal(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 1000, All Players(All Teams), Event Player, True);
+		Event Player.delta = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 1000, All Players(All Teams), Event Player, True);
+		Event Player.pull = Facing Direction Of(Event Player) - 2 * Event Player.eye_pos * Dot Product(Facing Direction Of(Event Player),
+			Event Player.eye_pos);
+		Event Player.vel = Ray Cast Hit Position(Event Player.delta, Event Player.delta + Event Player.pull * 1000, All Players(All Teams),
+			Event Player, True);
+		Create Beam Effect(All Players(All Teams), Bad Beam, Eye Position(Event Player), Event Player.delta, Color(Blue), None);
+		Create Beam Effect(All Players(All Teams), Bad Beam, Event Player.delta, Event Player.vel, Color(Blue), None);
+		Event Player.mass = Distance Between(Event Player.delta, Event Player.vel);
+		Wait(0.500, Ignore Condition);
+		Destroy All Effects;
+	}
+}
+
+disabled rule("sombra stun")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Ray Cast Hit Player(Event Player.delta, Event Player.vel, All Players(All Teams), Event Player, True) == True;
+	}
+
+	actions
+	{
+		Set Status(Closest Player To(Event Player.vel, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned,
+			Event Player.mass / 3);
+	}
+}
+
+rule("sombra leg sweep 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is Button Held(Event Player, Button(Melee)) == True;
+		Is On Ground(Event Player) == True;
+		Event Player.D == 0;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+	}
+
+	actions
+	{
+		Event Player.AJ = 1;
+		Start Holding Button(Event Player, Button(Crouch));
+		Start Facing(Event Player, Left, 400, To Player, Direction and Turn Rate);
+		Wait(0.900, Ignore Condition);
+		Stop Facing(Event Player);
+		Stop Holding Button(Event Player, Button(Crouch));
+		Event Player.AJ = 0;
+		Wait(1.500, Ignore Condition);
+	}
+}
+
+rule("sombra leg sweep 2")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Event Player.AJ == 1;
+		Is On Ground(Players Within Radius(Position Of(Event Player), 2, Opposite Team Of(Team Of(Event Player)), Surfaces)) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Players Within Radius(Position Of(Event Player), 2, Opposite Team Of(Team Of(Event Player)), Surfaces), Up, 7,
+			To World, Incorporate Contrary Motion);
+		Set Status(Players Within Radius(Position Of(Event Player), 2, Opposite Team Of(Team Of(Event Player)), Surfaces), Null,
+			Knocked Down, 2);
+	}
+}
+
+rule("sombra kick damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) < 2;
+		Event Player.H == 1;
+	}
+
+	actions
+	{
+		Clear Status(Event Player, Knocked Down);
+		Start Facing(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Left, 800, To Player,
+			Direction and Turn Rate);
+		Damage(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, 35);
+		Apply Impulse(Event Player, Facing Direction Of(Event Player), Distance Between(Event Player.J, Event Player) * -4, To World,
+			Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Stop Facing(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))));
+		Set Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned, 0.250);
+	}
+}
+
+rule("sombra kick")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is In Air(Event Player) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Is Meleeing(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.H = 1;
+		Event Player.TargetPos = Altitude Of(Event Player);
+		Set Status(Event Player, Event Player, Knocked Down, 1.850);
+		Play Effect(All Players(All Teams), Moira Fade Disappear Effect, Color(White), Event Player, 200);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Event Player, Facing Direction Of(Event Player), Distance Between(Event Player.J, Event Player) * 15, To World,
+			Cancel Contrary Motion);
+		Wait(1, Ignore Condition);
+		Event Player.H = 0;
+		disabled Wait(4.250, Ignore Condition);
+	}
+}
+
+rule("sombra up kick impulse down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Altitude Of(Event Player) > 3 + Event Player.TargetPos;
+		Event Player.H == 1;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Down, 5, To World, Cancel Contrary Motion);
+	}
+}
+
+rule("sombra wall run jump reset")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.P = 0;
+	}
+}
+
+rule("sombra wall run dbl jump")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Event Player.P == 2;
+		Is Button Held(Event Player, Button(Jump)) == True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Doomfist Rising Uppercut Leap Effect, Color(White), Event Player, 1);
+		Stop Accelerating(Event Player);
+		Apply Impulse(Event Player, Up, 12, To World, Incorporate Contrary Motion);
+		Event Player.P = 0;
+	}
+}
+
+rule("sombra Wallclimb?")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Global.C == False;
+		Is Button Held(Event Player, Button(Jump)) == True;
+		Altitude Of(Event Player) < 2.500;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Event Player.P = 1;
+		Start Accelerating(Event Player, Vector(0, 1, 0), 100, 3, To World, Direction Rate and Max Speed);
+		Wait(0.010, Ignore Condition);
+		Loop If Condition Is True;
+		Stop Accelerating(Event Player);
+		Wait(0.200, Ignore Condition);
+		Event Player.P = 2;
+	}
+}
+
+rule("sombra A = Playerpos + (0, 1, 0)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	actions
+	{
+		Global.A = Position Of(Event Player);
+		Global.A = Global.A + Vector(0, 1, 0);
+		Wait(0.010, Ignore Condition);
+		Loop;
+	}
+}
+
+rule("sombra B = A + Facing direction")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	actions
+	{
+		Global.B = Facing Direction Of(Event Player);
+		Global.B = Global.B * 2;
+		Global.B = Global.A + Global.B;
+		Wait(0.010, Ignore Condition);
+		Loop;
+	}
+}
+
+rule("sombra C = Is B visible")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	actions
+	{
+		Global.C = Is In Line of Sight(Global.A, Global.B, Barriers Do Not Block LOS);
+		Wait(0.010, Ignore Condition);
+		Loop;
+	}
+}
+
+rule("sombra hack speed boost")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Has Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Hacked) == True;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, 100 + Speed Of(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) * 5);
+		Wait(4, Ignore Condition);
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("sombra clear invis")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(5, Ignore Condition);
+		Damage(Event Player, Null, 0.500);
+	}
+}
+
+rule("sombra base damage")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is In View Angle(Victim, Event Player, 30) == False;
+	}
+
+	actions
+	{
+		Set Damage Received(Victim, 100);
+	}
+}
+
+rule("sombra damage in LOS")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is In View Angle(Victim, Event Player, 30) == True;
+	}
+
+	actions
+	{
+		Set Damage Received(Victim, 75);
+	}
+}
+
+rule("sombra slide 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Event Player.D == 0;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Speed Of(Event Player) >= 5;
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Knocked Down, 1);
+		Event Player.D = 8;
+		Chase Player Variable Over Time(Event Player, D, 0, 1, Destination and Duration);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("sombra slide 2")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Has Status(Event Player, Knocked Down) == True;
+		Event Player.D > 0;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Forward, 10, To Player, Cancel Contrary Motion);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("sombra ult slow time")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Sombra;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Slow Motion(40);
+		Set Move Speed(Event Player, 180);
+		Wait(2.250, Ignore Condition);
+		Set Slow Motion(100);
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("doom effff it")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(1, Ignore Condition);
+		Event Player.AJ = Vector(0, 0, 0);
+	}
+}
+
+rule("doom hi-chew slow")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Event Player.AJ != Vector(0, 0, 0);
+	}
+
+	actions
+	{
+		While(Distance Between(Event Player.AJ, Position Of(Event Player)) < Event Player.R);
+			Set Move Speed(Players Within Radius(Event Player.AJ, Event Player.R, Opposite Team Of(Team Of(Event Player)), Off), Max(40, -1 * (
+				Event Player.Q / 10 - 5) ^ 2 + 20));
+			Wait(0.250, Ignore Condition);
+		End;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("doom hi-chew cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Ultimate Charge Percent(Event Player) > 0;
+		Event Player.AM == 1;
+	}
+
+	actions
+	{
+		Event Player.AM = 0;
+	}
+}
+
+rule("doom hi-chew")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Ultimate Charge Percent(Event Player) > 0;
+		Event Player.AM == 0;
+	}
+
+	actions
+	{
+		Skip If(Event Player.AM == 1, 12);
+		Play Effect(All Players(All Teams), Sombra EMP Explosion Sound, Color(White), Position Of(Event Player) + Vector(0, 1, 0), 200);
+		Create Effect(All Players(All Teams), Winston Primal Rage Effect, Color(Purple), Event Player, 1, Visible To Position and Radius);
+		Event Player.D = Last Created Entity;
+		Set Status(Event Player, Null, Stunned, 0.750);
+		Wait(0.750, Ignore Condition);
+		Destroy Effect(Event Player.D);
+		Event Player.Q = Ultimate Charge Percent(Event Player);
+		Event Player.R = 13 * (Ultimate Charge Percent(Event Player) / 100);
+		Event Player.AJ = Position Of(Event Player);
+		Create Effect(All Players(All Teams), Sphere, Color(Black), Event Player.AJ, Event Player.R, None);
+		Event Player.O = Last Created Entity;
+		Event Player.AM = 1;
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 1.250);
+		Wait(0.160, Ignore Condition);
+		Loop If((Ultimate Charge Percent(Event Player) && Event Player.AM) > 0);
+		Event Player.AM = 0;
+		Destroy Effect(Event Player.O);
+		Event Player.AJ = Vector(0, 0, 0);
+		Wait(15, Ignore Condition);
+	}
+}
+
+rule("doom special")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Acknowledge) == True;
+		Event Player.Z == 0;
+	}
+
+	actions
+	{
+		Skip If(Event Player.W != 0, 8);
+		Create Effect(All Players(All Teams), Ana Nano Boosted Effect, Color(White), Event Player, 1, Visible To Position and Radius);
+		Event Player.speed = Last Created Entity;
+		Create HUD Text(Event Player, Custom String("Attack Boost Ready"), Null, Null, Left, 0, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Event Player.Z = 1;
+		Wait(1.500, Ignore Condition);
+		Destroy All HUD Text;
+		Event Player.Z = 0;
+		Destroy Effect(Event Player.speed);
+	}
+}
+
+rule("doom slow")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Event Player.P == 1;
+		Ultimate Charge Percent(Event Player) >= 25;
+		Event Player.Z == 1;
+	}
+
+	actions
+	{
+		Destroy All HUD Text;
+		Event Player.W = 1;
+		Destroy Effect(Event Player.speed);
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 25);
+		Set Status(Victim, Null, Stunned, 0.016);
+		Set Move Speed(Victim, 40);
+		Wait(1.750, Ignore Condition);
+		Set Move Speed(Victim, 100);
+		Event Player.W = 0;
+	}
+}
+
+rule("doom invincible e")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Event Player.Z == 1;
+		Ultimate Charge Percent(Event Player) >= 50;
+	}
+
+	actions
+	{
+		Destroy All HUD Text;
+		Event Player.W = 1;
+		Set Status(Event Player, Null, Invincible, 0.160);
+		Wait(0.016, Ignore Condition);
+		Loop If(Is Using Ability 2(Event Player) == True);
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 50);
+		Event Player.W = 0;
+		Destroy Effect(Event Player.speed);
+	}
+}
+
+rule("doom uppercut")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Event Player, Stunned, 0.512);
+		Apply Impulse(Victim, Up, 1.250, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("doom ability 2 hit stun")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Event Player, Stunned, 0.336);
+	}
+}
+
+rule("doom primary fire check")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.P = 1;
+		Wait(0.250, Ignore Condition);
+		Event Player.P = 0;
+	}
+}
+
+rule("doom airial knock down")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is In Air(Victim) == True;
+		Is Using Ability 1(Event Player) == False;
+		Is Button Held(Event Player, Button(Melee)) == False;
+		Event Player.P == 0;
+	}
+
+	actions
+	{
+		Wait(0.500, Ignore Condition);
+		Set Status(Victim, Event Player, Knocked Down, 2.500);
+	}
+}
+
+rule("doom invincible uppercut")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Invincible, 0.096);
+	}
+}
+
+rule("doom jab reset")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == False;
+		Is Using Ability 1(Event Player) == False;
+		Is Using Ability 2(Event Player) == False;
+		Has Status(Victim, Knocked Down) == True;
+	}
+
+	actions
+	{
+		Clear Status(Victim, Knocked Down);
+		Set Status(Victim, Event Player, Stunned, 0.500);
+	}
+}
+
+rule("doom ult")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Destroy All HUD Text;
+		Set Damage Dealt(Event Player, 1);
+		Wait(3, Ignore Condition);
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("doom dashback")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is On Ground(Event Player) == True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Backward, 25, To Player, Cancel Contrary Motion);
+		Start Accelerating(Event Player, Backward, 100, 20, To Player, Direction Rate and Max Speed);
+		Wait(1, Ignore Condition);
+		Stop Accelerating(Event Player);
+	}
+}
+
+rule("doom dashforward")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Forward, 25, To Player, Cancel Contrary Motion);
+		Start Accelerating(Event Player, Forward, 100, 20, To Player, Direction Rate and Max Speed);
+		Wait(1, Ignore Condition);
+		Stop Accelerating(Event Player);
+	}
+}
+
+rule("doom cancels")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Doomfist;
+	}
+
+	conditions
+	{
+		(Is Using Ability 2(Event Player) || Is Using Ability 1(Event Player)) == True;
+		Is Button Held(Event Player, Button(Jump)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Stunned, 0.016);
+	}
+}
+
+rule("mccree allow ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Ultimate Charge Percent(Event Player) >= 50;
+	}
+
+	actions
+	{
+		Allow Button(Event Player, Button(Secondary Fire));
+	}
+}
+
+rule("mccree disallow ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Ultimate Charge Percent(Event Player) < 50;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Secondary Fire));
+	}
+}
+
+rule("mccree setup")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Ultimate));
+	}
+}
+
+rule("mccree ult fire")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Ultimate Charge Percent(Event Player) >= 50;
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+	}
+
+	actions
+	{
+		Wait(2, Ignore Condition);
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 50);
+	}
+}
+
+rule("mccree frozen damage")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Has Status(Victim, Frozen) == True;
+	}
+
+	actions
+	{
+		Skip If((Event Player.ProjectileSpeed || Event Player.Zoom) == 1, 3);
+		Set Damage Dealt(Event Player, 25);
+		Wait(2, Ignore Condition);
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("mccree single shot")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.Direction = 0;
+		Event Player.Zoom = 0;
+		Event Player.ProjectileSpeed = 0;
+		Destroy All HUD Text;
+		Wait(0.250, Ignore Condition);
+		Skip If(Has Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Frozen) == True, 1);
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("mccree freeze")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Group Up) == True;
+	}
+
+	actions
+	{
+		Destroy HUD Text(Last Text ID);
+		Event Player.Direction += 1;
+		Event Player.Zoom = 0;
+		Event Player.ProjectileSpeed = 0;
+		Create HUD Text(Event Player, String("Freeze"), Null, Null, Left, 0, Color(Aqua), Color(Aqua), Color(Aqua), Visible To and String,
+			Default Visibility);
+		Set Damage Dealt(Event Player, 50);
+	}
+}
+
+rule("mccree fire")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Thanks) == True;
+	}
+
+	actions
+	{
+		Destroy HUD Text(Last Text ID);
+		Event Player.Zoom += 1;
+		Event Player.Direction = 0;
+		Event Player.ProjectileSpeed = 0;
+		Create HUD Text(Event Player, String("Burn"), Null, Null, Left, 0, Color(Red), Color(Red), Color(Red), Visible To and String,
+			Default Visibility);
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("mccree kb")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Hello) == True;
+	}
+
+	actions
+	{
+		Destroy HUD Text(Last Text ID);
+		Event Player.ProjectileSpeed += 1;
+		Event Player.Zoom = 0;
+		Event Player.Direction = 0;
+		Create HUD Text(Event Player, String("Power"), Null, Null, Left, 0, Color(Orange), Color(Orange), Color(Orange),
+			Visible To and String, Default Visibility);
+		Set Damage Dealt(Event Player, 125);
+	}
+}
+
+rule("mccree kb firring")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.ProjectileSpeed < 1, 12);
+		Skip If(Has Status(Victim, Frozen) == True, 9);
+		Skip If(Has Status(Victim, Burning) == True, 3);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player) + Vector(0, 0.200, 0), Max(8, (10 - Distance Between(Event Player.J,
+			Victim)) * 2.500), To World, Cancel Contrary Motion);
+		Event Player.ProjectileSpeed = 0;
+		Skip If(Has Status(Victim, Burning) != True, 3);
+		Set Status(Victim, Null, Knocked Down, 2);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player) + Vector(0, 0.150, 0), 12.500, To World, Cancel Contrary Motion);
+		Skip If(Has Status(Victim, Frozen) != True, 2);
+		Clear Status(Victim, Frozen);
+		Start Damage Over Time(Victim, Event Player, 1, 50);
+	}
+}
+
+rule("mccree firring")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.Direction < 1, 8);
+		Set Status(Victim, Null, Frozen, 1.750);
+		Event Player.Direction = 0;
+		Skip If(Has Status(Victim, Burning) != True, 5);
+		Clear Status(Victim, Frozen);
+		Clear Status(Victim, Burning);
+		Set Move Speed(Victim, 50);
+		Wait(3.500, Ignore Condition);
+		Set Move Speed(Victim, 100);
+		Skip If(Event Player.Zoom < 1, 9);
+		Set Status(Victim, Null, Burning, 5);
+		Start Damage Over Time(Victim, Event Player, 5, 0.015 * Max Health(Victim));
+		Event Player.Zoom = 0;
+		Skip If(Has Status(Victim, Frozen) != True, 5);
+		Stop Damage Over Time(Last Damage Over Time ID);
+		Clear Status(Victim, Frozen);
+		Start Damage Over Time(Victim, Event Player, 5, 0.030 * Max Health(Victim));
+		Wait(5, Ignore Condition);
+		Clear Status(Victim, Burning);
+	}
+}
+
+rule("mccree flash")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		McCree;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Is In Line of Sight(Event Player, Victim, Barriers Do Not Block LOS) == True;
+		Is In View Angle(Victim, Attacker, 120) == True;
+	}
+
+	actions
+	{
+		Clear Status(Victim, Stunned);
+		Create Effect(All Players(Opposite Team Of(Team Of(Event Player))), Orb, Color(Yellow), Eye Position(Victim) + World Vector Of(
+			Vector(0, 0, 0.750), Victim, Rotation), 4, Visible To Position and Radius);
+		Wait(2, Ignore Condition);
+		Destroy Effect(Last Created Entity);
+	}
+}
+
+rule("genji ult damge by distance var")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.O = 100 * (Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))))
+			/ 5);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("genji ult damge modification")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is Button Held(Event Player, Button(Primary Fire)) == True;
+	}
+
+	actions
+	{
+		Start Damage Modification(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, Event Player.O,
+			Receivers Damagers and Damage Percent);
+		Wait(0.250, Ignore Condition);
+		Stop Damage Modification(Last Damage Modification ID);
+	}
+}
+
+rule("genji deflect cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Is Using Ultimate(Event Player) == False;
+	}
+
+	actions
+	{
+		Wait(0.320, Ignore Condition);
+		Set Status(Event Player, Null, Knocked Down, 0.016);
+	}
+}
+
+rule("genji dash cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+		Is Button Held(Event Player, Button(Jump)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Knocked Down, 0.016);
+		Wait(0.017, Ignore Condition);
+		Play Effect(All Players(All Teams), Good Explosion, Color(White), Event Player, 1);
+		Set Status(Event Player, Null, Invincible, 0.001);
+		Event Player.pull = 1;
+		Wait(2, Ignore Condition);
+		Event Player.pull = 0;
+	}
+}
+
+rule("genji DEFAULT ALL CAPS dash cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(0.100, Ignore Condition);
+		Skip If(Event Player.pull == 1, 1);
+		Set Status(Event Player, Null, Rooted, 0.160);
+	}
+}
+
+rule("genji damage by distance")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Stunned, 0.100);
+	}
+}
+
+rule("genji bleed")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == False;
+		Hero Of(Victim) != Hero(Bastion);
+		Is Firing Primary(Event Player) == True;
+	}
+
+	actions
+	{
+		Start Damage Over Time(Victim, Event Player, 5, Max Health(Victim) * 0.010);
+	}
+}
+
+rule("genji smoke")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.ProjectileSpeed = Eye Position(Event Player);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0, 0.700,
+			0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0.700,
+			0.700, 0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(-0.700,
+			0.700, 0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0.700, 0,
+			0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(-0.700, 0,
+			0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0, -0.700,
+			0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(-0.700,
+			-0.700, 0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0.700,
+			-0.700, 0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0, 0, 0), 3,
+			Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(0.500, -1,
+			0), 3, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Torbjörn Overloading Effect, Color(Green), Event Player.ProjectileSpeed + Vector(-0.500, -1,
+			0), 3, Visible To Position and Radius);
+		Wait(3.500, Ignore Condition);
+		Destroy All Effects;
+	}
+}
+
+rule("genji ult secondary")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Is Using Ultimate(Event Player) == True;
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Stunned, 0.750);
+		Apply Impulse(Event Player, Up, 10, To World, Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Apply Impulse(Event Player, Backward, 15, To Player, Cancel Contrary Motion);
+	}
+}
+
+rule("genji assassinate")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Health(Victim) < 0.333 * Max Health(Victim);
+		Event Damage >= 10;
+		Is Button Held(Event Player, Button(Melee)) == True;
+		Distance Between(Position Of(Event Player), Position Of(Victim)) < 3;
+		Is Firing Primary(Event Player) != True;
+		Is Using Ability 1(Event Player) != True;
+		Is Using Ability 2(Event Player) != True;
+	}
+
+	actions
+	{
+		Damage(Victim, Event Player, 20);
+	}
+}
+
+rule("genji Bhop")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Genji;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(0.050, Ignore Condition);
+		If(Is Jumping(Event Player) == True);
+			Play Effect(All Players(All Teams), Good Pickup Effect, Color(White), Event Player, 200);
+			Set Move Speed(Event Player, Speed Of(Event Player) * 20);
+		End;
+		If(Is Jumping(Event Player) == False);
+			Set Move Speed(Event Player, 100);
+		End;
+	}
+}
+
+rule("hanParameters|A(ultDist,ultFOV,ultSpeed,a2Speed,a2Duration,a2Cooldown,a2Radius,m2Cooldown,m2Amount,m2MaxDist,m2FOV,m2Ult,m2Cast)")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.A[0] = 50;
+		Global.A[1] = 15;
+		Global.A[2] = 12.500;
+		Global.A[3] = 25;
+		Global.A[4] = 2.500;
+		Global.A[5] = 8;
+		Global.A[6] = 2.500;
+		Global.A[7] = 1;
+		Global.A[8] = 60;
+		Global.A[9] = 15;
+		Global.A[10] = 15;
+		Global.A[11] = 3;
+		Global.A[12] = 0.500;
+	}
+}
+
+rule("hanzo place laser trap 1 | pos=d(1) & e | entity = a(5)&a(6) is placed = a(7)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Event Player.Direction[7] != True;
+		Event Player.Direction[21] != True;
+		Event Player.T == 0;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Asleep) != True;
+		Has Status(Event Player, Frozen) != True;
+		Has Status(Event Player, Stunned) != True;
+	}
+
+	actions
+	{
+		Event Player.Direction[21] = True;
+		Event Player.D[0] = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 1000, Empty Array, Event Player, False);
+		Event Player.TargetPos = Eye Position(Event Player);
+		Chase Player Variable At Rate(Event Player, TargetPos, Event Player.D[0], Global.A[3], None);
+		Create Effect(All Players(Team Of(Event Player)), Sphere, Color(Blue), Event Player.TargetPos, 0.250,
+			Visible To Position and Radius);
+		Event Player.Direction[5] = Last Created Entity;
+		Create Effect(All Players(Opposite Team Of(Team Of(Event Player))), Sphere, Color(Red), Event Player.TargetPos, 0.250,
+			Visible To Position and Radius);
+		Event Player.Direction[6] = Last Created Entity;
+		Event Player.Direction[7] = True;
+		Event Player.S = 5;
+		Chase Player Variable At Rate(Event Player, S, 0, 1, None);
+	}
+}
+
+rule("hanzo destroy traps if trap 2 is not placed after s=5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Event Player.S == 0;
+	}
+
+	actions
+	{
+		Event Player.Direction[13] = True;
+	}
+}
+
+rule("hanzo place laser trap 2| pos=d(2) & f | entity = a(8)&a(9) is placed = a(10)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Event Player.Direction[7] == True;
+		Event Player.Direction[10] != True;
+		Event Player.Direction[21] != True;
+	}
+
+	actions
+	{
+		Stop Chasing Player Variable(Event Player, S);
+		Event Player.Direction[21] = True;
+		Event Player.D[1] = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 1000, Empty Array, Event Player, False);
+		Event Player.ProjectileDirection = Eye Position(Event Player);
+		Chase Player Variable At Rate(Event Player, ProjectileDirection, Event Player.D[1], Global.A[3], None);
+		Create Effect(All Players(Team Of(Event Player)), Sphere, Color(Blue), Event Player.ProjectileDirection, 0.250,
+			Visible To Position and Radius);
+		Event Player.Direction[8] = Last Created Entity;
+		Create Effect(All Players(Opposite Team Of(Team Of(Event Player))), Sphere, Color(Red), Event Player.ProjectileDirection, 0.250,
+			Visible To Position and Radius);
+		Event Player.Direction[9] = Last Created Entity;
+		Event Player.Direction[10] = True;
+		Event Player.T = 1;
+		Chase Player Variable At Rate(Event Player, T, 0, 1, None);
+	}
+}
+
+rule("hanzo create the trap beam | entity=a(11)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Event Player.Direction[7] == True;
+		Event Player.Direction[10] == True;
+		Is In Line of Sight(Event Player.TargetPos, Event Player.ProjectileDirection, Barriers Do Not Block LOS) == True;
+	}
+
+	actions
+	{
+		Create Beam Effect(All Players(All Teams), Grapple Beam, Event Player.TargetPos, Event Player.ProjectileDirection, Color(White),
+			Visible To Position and Radius);
+		Event Player.Direction[11] = Last Created Entity;
+		Wait(0.250, Ignore Condition);
+	}
+}
+
+rule("hanzo break trap if not on LOS")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is In Line of Sight(Event Player.TargetPos, Event Player.ProjectileDirection, Barriers Do Not Block LOS) != True;
+		Event Player.Direction[7] == True;
+		Event Player.Direction[10] == True;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.Direction[11]);
+	}
+}
+
+rule("hanzo player breaks laser | trigger vector = a(12) is triggered=a(13)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Event Player.Direction[7] == True;
+		Event Player.Direction[10] == True;
+		Event Player.Direction[14] == False;
+	}
+
+	actions
+	{
+		Event Player.Direction[14] = Ray Cast Hit Player(Event Player.TargetPos, Event Player.ProjectileDirection, All Players(
+			Opposite Team Of(Team Of(Event Player))), All Players(Team Of(Event Player)), True);
+		Skip If(Event Player.Direction[14] != False, 3);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Skip(11);
+		Event Player.Direction[12] = Ray Cast Hit Position(Event Player.TargetPos, Event Player.ProjectileDirection, All Players(
+			Opposite Team Of(Team Of(Event Player))), All Players(Team Of(Event Player)), True);
+		Set Status(Players Within Radius(Event Player.Direction[12], Global.A[6], Opposite Team Of(Team Of(Event Player)), Surfaces),
+			Event Player, Knocked Down, Global.A[4]);
+		Damage(Players Within Radius(Event Player.Direction[12], Global.A[6], Opposite Team Of(Team Of(Event Player)), Off), Event Player,
+			5);
+		Play Effect(All Players(Team Of(Event Player)), Good Explosion, Color(Purple), Event Player.Direction[12], Global.A[6]);
+		Play Effect(All Players(Opposite Team Of(Team Of(Event Player))), Good Explosion, Color(Red), Event Player.Direction[12],
+			Global.A[6]);
+		Play Effect(All Players(All Teams), Debuff Impact Sound, Color(White), Event Player.Direction[12], 200);
+		Event Player.Direction[13] = True;
+		Event Player.T = Global.A[5];
+		Chase Player Variable At Rate(Event Player, T, 0, 1, None);
+		Wait(0.250, Ignore Condition);
+		Event Player.Direction[14] = Null;
+	}
+}
+
+rule("hanzo recall traps")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		((Is Button Held(Event Player, Button(Interact)) && Event Player.Direction[7]) || Event Player.Direction[13]) == True;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.Direction[5]);
+		Destroy Effect(Event Player.Direction[6]);
+		Destroy Effect(Event Player.Direction[8]);
+		Destroy Effect(Event Player.Direction[9]);
+		Destroy Effect(Event Player.Direction[11]);
+		Play Effect(All Players(All Teams), Bad Explosion, Color(Purple), Event Player.TargetPos, 0.250);
+		Play Effect(All Players(All Teams), Bad Explosion, Color(Purple), Event Player.ProjectileDirection, 0.250);
+		Play Effect(Event Player, Explosion Sound, Color(White), Event Player, 20);
+		Event Player.Direction[7] = False;
+		Event Player.Direction[10] = False;
+		Wait(0.250, Ignore Condition);
+		Event Player.Direction[13] = False;
+	}
+}
+
+rule("hanzo is a2 released a(21)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) != True;
+	}
+
+	actions
+	{
+		Event Player.Direction[21] = False;
+	}
+}
+
+rule("hanzo laser trap cooldown hud")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	actions
+	{
+		Create HUD Text(Event Player, Null, String("Secondary Fire"), Event Player.T, Left, 5, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Event Player.Direction[15] = Last Text ID;
+	}
+}
+
+rule("hanzo punch")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Victim) <= 3;
+		Is Button Held(Event Player, Button(Melee)) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Event Player, Rooted, 0.700);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player) + Vector(0, 0.150, 0), 10, To World, Cancel Contrary Motion);
+	}
+}
+
+rule("hanzo knock down")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == False;
+		Is Using Ability 1(Event Player) == False;
+		Y Component Of(Position Of(Event Player)) - Y Component Of(Position Of(Victim)) > 5;
+		Hero Of(Victim) != Hero(Bastion);
+	}
+
+	actions
+	{
+		Set Status(Victim, Null, Knocked Down, 0.750);
+	}
+}
+
+rule("hanzo boom out")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Event Player.O != 1;
+		Is Button Held(Event Player, Button(Primary Fire)) != True;
+		Is Button Held(Event Player, Button(Secondary Fire)) != True;
+		Is Button Held(Event Player, Button(Ultimate)) != True;
+	}
+
+	actions
+	{
+		Event Player.V = 4;
+		Event Player.W = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 1000, All Players(All Teams), Event Player, True);
+		Event Player.Y = Eye Position(Event Player);
+		Create Effect(All Players(All Teams), Sphere, Color(Purple), Event Player.Y, 0.300, Position and Radius);
+		Event Player.L = Last Created Entity;
+		Chase Player Variable At Rate(Event Player, Y, Event Player.W, 20, Destination and Rate);
+		Wait(0.250, Ignore Condition);
+		Event Player.O = 1;
+		Wait(1, Ignore Condition);
+		Chase Player Variable At Rate(Event Player, V, 0, 1, None);
+		Create HUD Text(Event Player, Null, String("Cooldown"), Event Player.V, Left, 5, Color(White), Color(White), Color(White),
+			Visible To and String, Default Visibility);
+		Wait(Event Player.V, Ignore Condition);
+		Event Player.O = 0;
+		Destroy Effect(Event Player.L);
+		Destroy HUD Text(Last Text ID);
+	}
+}
+
+rule("hanzo boom in")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.Y, Closest Player To(Event Player.Y, Opposite Team Of(Team Of(Event Player)))) < 1.500;
+	}
+
+	actions
+	{
+		Event Player.U = 1;
+		Damage(Closest Player To(Event Player.Y, Opposite Team Of(Team Of(Event Player))), Event Player, 40);
+		Set Status(Closest Player To(Event Player.Y, Opposite Team Of(Team Of(Event Player))), Event Player, Stunned, 0.500);
+		Chase Player Variable At Rate(Event Player, Y, Event Player.R, 20, Destination and Rate);
+		Event Player.O = 0;
+	}
+}
+
+rule("hanzo eye pos")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Event Player.O == 1;
+	}
+
+	actions
+	{
+		Event Player.R = Eye Position(Event Player);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("hanzo destroy boom u")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Event Player.Y) < 2;
+		Event Player.U == 1;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.L);
+		Event Player.U = 0;
+		Event Player.V = 0;
+	}
+}
+
+rule("hanzo destroy boom o")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Event Player.Y) < 2;
+		Event Player.O == 1;
+	}
+
+	actions
+	{
+		Destroy Effect(Event Player.L);
+		Event Player.O = 0;
+		Event Player.V = 0;
+	}
+}
+
+rule("hanzo disable radar")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	actions
+	{
+		Set Ability 1 Enabled(Event Player, False);
+		Event Player.K = 100;
+	}
+}
+
+rule("hanzo e damage reduction")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 40);
+	}
+}
+
+rule("hanzo e damage reset")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("hanzo slow stack")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Event Player.K < 100;
+	}
+
+	actions
+	{
+		Event Player.R = Event Player.K;
+		Wait(2, Ignore Condition);
+		Skip If(Event Player.R != Event Player.K, 2);
+		Event Player.K = 100;
+		Set Move Speed(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), 100);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("hanzo slow set")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.K -= 15;
+		Set Move Speed(Victim, Event Player.K);
+	}
+}
+
+rule("hanzo ult disable air dash")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is In Air(Event Player) == True;
+		Ultimate Charge Percent(Event Player) < 33;
+		Is On Wall(Event Player) == False;
+	}
+
+	actions
+	{
+		Wait(0.100, Ignore Condition);
+		Skip If(Is On Wall(Event Player) == True, 1);
+		Disallow Button(Event Player, Button(Jump));
+	}
+}
+
+rule("hanzo enable jump")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Allow Button(Event Player, Button(Jump));
+	}
+}
+
+rule("hanzo air dash")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is In Air(Event Player) == True;
+		Ultimate Charge Percent(Event Player) >= 33;
+		Horizontal Speed Of(Event Player) > 18;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 33);
+	}
+}
+
+rule("hanzo moving charge ult/disable old ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Hanzo;
+	}
+
+	conditions
+	{
+		Is Moving(Event Player) == True;
+		Is On Ground(Event Player) == True;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Ultimate));
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) + 1);
+		Wait(0.240, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("baptiste init")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Game In Progress == True;
+	}
+
+	actions
+	{
+		Disallow Button(Event Player, Button(Ultimate));
+		Disallow Button(Event Player, Button(Ability 2));
+	}
+}
+
+rule("baptiste Blink")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Is On Ground(Event Player) == True;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+		Ultimate Charge Percent(Event Player) >= 35;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 35);
+		Event Player.Y = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 10, All Players(All Teams), Event Player, True);
+		Set Status(Event Player, Null, Rooted, 0.250);
+		Play Effect(All Players(All Teams), Symmetra Teleporter Reappear Sound, Color(White), Event Player, 125);
+		Play Effect(All Players(All Teams), Symmetra Teleporter Reappear Effect, Color(White), Event Player, 1);
+		Wait(0.250, Ignore Condition);
+		Teleport(Event Player, Nearest Walkable Position(Event Player.Y));
+		Play Effect(All Players(All Teams), Symmetra Teleporter Reappear Effect, Color(White), Event Player, 1);
+		Play Effect(All Players(All Teams), Symmetra Teleporter Reappear Sound, Color(White), Event Player, 125);
+		Wait(0.500, Ignore Condition);
+		Event Player.Y = 0;
+		Wait(7.500, Ignore Condition);
+	}
+}
+
+rule("baptiste smoke")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Firing Secondary(Event Player) == True;
+		Event Player.TargetPos == 0;
+		Ultimate Charge Percent(Event Player) >= 30;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 20);
+		All Players(All Teams).Direction = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 20, All Players(All Teams), Event Player, True);
+		Disallow Button(Event Player, Button(Secondary Fire));
+		Wait(8, Ignore Condition);
+		Event Player.Direction = Vector(0, 0, 0);
+		Event Player.TargetPos = 0.500;
+		Chase Player Variable Over Time(Event Player, TargetPos, 0, 0.500, Destination and Duration);
+		Allow Button(Event Player, Button(Secondary Fire));
+	}
+}
+
+rule("baptiste smoke effects")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Global.W == 0;
+	}
+
+	actions
+	{
+		Wait(0.250, Ignore Condition);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction, 4, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction + Vector(0, 1, 0), 4,
+			Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction + Vector(0, 2, 0), 4,
+			Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction, 4, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction + Vector(0, 1, 0), 4,
+			Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Cloud, Color(White), Event Player.Direction + Vector(0, 2, 0), 4,
+			Visible To Position and Radius);
+		Global.W = 1;
+	}
+}
+
+rule("baptiste poison smoke")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.Direction, 4, All Teams, Surfaces) == True;
+	}
+
+	actions
+	{
+		Damage(Players Within Radius(Event Player.Direction, 4, All Teams, Off), Event Player, 4);
+		Wait(0.160, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("baptiste slam apex")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Altitude Of(Event Player) > 6;
+		Is Button Held(Event Player, Button(Melee)) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Event Player.N = 0;
+		Event Player.K = 1;
+		Start Facing(Event Player, Down, 200, To World, Direction and Turn Rate);
+		Event Player.M = Altitude Of(Event Player);
+		Wait(0.128, Ignore Condition);
+		Start Accelerating(Event Player, Down, 100, 20, To World, Direction Rate and Max Speed);
+	}
+}
+
+rule("baptiste slam ground")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is On Ground(Event Player) == True;
+		Event Player.K == 1;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Wrecking Ball Piledriver Impact Sound, Color(White), Position Of(Event Player), 175);
+		Play Effect(All Players(All Teams), Wrecking Ball Piledriver Impact Effect, Color(White), Position Of(Event Player), 1);
+		Stop Accelerating(Event Player);
+		Stop Facing(Event Player);
+		Event Player.L = Position Of(Event Player);
+		Create Effect(All Players(All Teams), Ring, Color(Yellow), Event Player.L, Event Player.N, Visible To Position and Radius);
+		Event Player.O = Last Created Entity;
+		Chase Player Variable At Rate(Event Player, N, Event Player.M, 3.500, Destination and Rate);
+		Wait(1, Ignore Condition);
+		Destroy Effect(Event Player.O);
+		Event Player.K = 0;
+	}
+}
+
+rule("baptiste slam pop up")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Event Player.K == 1;
+		Is On Ground(Event Player) == True;
+		Is On Ground(Closest Player To(Event Player.L, Opposite Team Of(Team Of(Event Player)))) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Players Within Radius(Event Player.L, Event Player.N, Opposite Team Of(Team Of(Event Player)), Surfaces), Up,
+			Event Player.M, To World, Cancel Contrary Motion);
+		Set Status(Players Within Radius(Event Player.L, Event Player.N, Opposite Team Of(Team Of(Event Player)), Surfaces), Event Player,
+			Stunned, 0.300);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("baptiste air melee")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Victim) <= 3;
+		Is Button Held(Event Player, Button(Melee)) == True;
+		Is In Air(Victim) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Event Player, Rooted, 0.700);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), Distance Between(Event Player.J, Victim) * 7.500, To World,
+			Cancel Contrary Motion);
+	}
+}
+
+rule("baptisite blink melee")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Victim) <= 3;
+		Is Button Held(Event Player, Button(Melee)) == True;
+		Event Player.Y != 0;
+	}
+
+	actions
+	{
+		Set Status(Victim, Null, Knocked Down, 2);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player) + Vector(0, 0.100, 0), Distance Between(Event Player.J, Victim) * 12,
+			To World, Cancel Contrary Motion);
+	}
+}
+
+rule("baptisite pop up")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+		Has Status(Event Player, Hacked) == False;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Knocked Down) == False;
+		Is Firing Primary(Event Player) != True;
+		Ultimate Charge Percent(Event Player) >= 5;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 5);
+		Event Player.G = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 10, All Players(All Teams), Event Player, True);
+		Play Effect(All Players(All Teams), Ana Sleeping Sound, Color(White), Event Player.G, 150);
+		Play Effect(All Players(All Teams), Hanzo Sonic Arrow Initial Pulse Effect, Color(White), Event Player.G, 1);
+		Wait(0.900, Ignore Condition);
+		Play Effect(All Players(All Teams), Reinhardt Fire Strike Target Impact Effect, Color(White), Event Player.G, 1);
+		Set Status(Players Within Radius(Event Player.G, 2.500, All Teams, Off), Event Player, Stunned, 0.300);
+		Damage(Players Within Radius(Event Player.G, 2.500, All Teams, Off), Event Player, 40);
+		Apply Impulse(Players Within Radius(Event Player.G, 2.500, All Teams, Off), Up, 11, To World, Incorporate Contrary Motion);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("baptisite air takedown")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Meleeing(Event Player) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is In Air(Event Player) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		While(Is In Air(Event Player) == True);
+			Attach Players(Victim, Event Player, Vector(0, -0.500, 0));
+			Set Status(Victim, Event Player, Stunned, 9999);
+			Wait(0.160, Ignore Condition);
+		End;
+		Detach Players(All Players(All Teams));
+		Clear Status(Victim, Stunned);
+	}
+}
+
+rule("bapt self crp 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[1], 2.500, Team Of(Event Player), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Event Player, 180);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("bapt self crp 2")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[2], 2.500, Team Of(Event Player), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Event Player, 180);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("bapt self crp 3")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[3], 2.500, Team Of(Event Player), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Event Player, 180);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("bapt self crp 4")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[4], 2.500, Team Of(Event Player), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Event Player, 180);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("bapt self crp 5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[5], 2.500, Team Of(Event Player), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Event Player, 180);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Event Player, 100);
+	}
+}
+
+rule("bapt enemy crp 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[1], 2.500, Opposite Team Of(Team Of(Event Player)), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Players Within Radius(Event Player.O[1], 2, All Teams, Off), 40);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Closest Player To(Event Player.O[1], Opposite Team Of(Team Of(Event Player))), 100);
+	}
+}
+
+rule("bapt enemy crp 2")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[2], 2.500, Opposite Team Of(Team Of(Event Player)), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Players Within Radius(Event Player.O[2], 2, All Teams, Off), 40);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Closest Player To(Event Player.O[2], Opposite Team Of(Team Of(Event Player))), 100);
+	}
+}
+
+rule("bapt enemy crp 3")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[3], 2.500, Opposite Team Of(Team Of(Event Player)), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Players Within Radius(Event Player.O[3], 2, All Teams, Off), 40);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Closest Player To(Event Player.O[3], Opposite Team Of(Team Of(Event Player))), 100);
+	}
+}
+
+rule("bapt enemy crp 4")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[4], 2.500, Opposite Team Of(Team Of(Event Player)), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Players Within Radius(Event Player.O[4], 2, All Teams, Off), 40);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Closest Player To(Event Player.O[4], Opposite Team Of(Team Of(Event Player))), 100);
+	}
+}
+
+rule("bapt enemy crp 5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Players Within Radius(Event Player.O[5], 2.500, Opposite Team Of(Team Of(Event Player)), Off) == True;
+	}
+
+	actions
+	{
+		Event Player.delta = Speed Of(Event Player);
+		Set Move Speed(Players Within Radius(Event Player.O[5], 2, All Teams, Off), 40);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Closest Player To(Event Player.O[5], Opposite Team Of(Team Of(Event Player))), 100);
+	}
+}
+
+rule("bapt capt sprkles")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Ultimate Charge Percent(Event Player) >= 15;
+	}
+
+	actions
+	{
+		Event Player.W = Eye Position(Event Player) - Vector(-1, 1, 0);
+		Event Player.V = Eye Position(Event Player) - Vector(1, 1, 0);
+		Event Player.U = Eye Position(Event Player) - Up;
+		Event Player.eye_pos = Eye Position(Event Player) - Up;
+		Event Player.succ_target = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(
+			Event Player) * 8, All Players(All Teams), Event Player, True);
+		Event Player.P += 1;
+		Event Player.AM += 1;
+		Modify Player Variable(Event Player, O, Append To Array, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(
+			Event Player) + Facing Direction Of(Event Player) * Event Player.AM, All Players(All Teams), Event Player, True));
+		Wait(0.016, Ignore Condition);
+		Loop If(Event Player.AM < 8);
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 15);
+		Play Effect(All Players(All Teams), Echo Sticky Bomb Explosion Effect, Color(White), Event Player, 1);
+		Play Effect(All Players(All Teams), Lúcio Sound Barrier Cast Sound, Color(White), Event Player.eye_pos, 125);
+		Create Beam Effect(All Players(All Teams), Orisa Amplifier Beam, Event Player.U, Event Player.eye_pos, Color(White),
+			Position and Radius);
+		Event Player.force = Last Created Entity;
+		Create Beam Effect(All Players(All Teams), Orisa Amplifier Beam, Event Player.W, Event Player.eye_pos, Color(White),
+			Position and Radius);
+		Event Player.pull = Last Created Entity;
+		Create Beam Effect(All Players(All Teams), Orisa Amplifier Beam, Event Player.V, Event Player.eye_pos, Color(White),
+			Position and Radius);
+		Event Player.vel = Last Created Entity;
+		Chase Player Variable At Rate(Event Player, eye_pos, Event Player.succ_target, 20, Destination and Rate);
+		Wait(3.750, Ignore Condition);
+		Event Player.AM = 0;
+		Event Player.O = 0;
+		Event Player.P = 0;
+		Destroy Effect(Event Player.vel);
+		Destroy Effect(Event Player.force);
+		Destroy Effect(Event Player.pull);
+	}
+}
+
+rule("bapt health pick up")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Event Was Health Pack == True;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) + 40);
+	}
+}
+
+rule("bapt spawn ult perctent")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(0.500, Ignore Condition);
+		Set Ultimate Charge(Event Player, 50);
+	}
+}
+
+rule("moira melee")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Meleeing(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.Direction = 1;
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Set Gravity(Victim, 25);
+		Skip If(Is In Air(Event Player) == True, 2);
+		Apply Impulse(Victim, Up, 5, To World, Cancel Contrary Motion);
+		Apply Impulse(Event Player, Up, 4, To World, Cancel Contrary Motion);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), Distance Between(Event Player.J, Victim) * 5, To World,
+			Incorporate Contrary Motion);
+		Skip If(Is In Air(Event Player) == False, 1);
+		Apply Impulse(All Players(All Teams), Up, 5, To World, Incorporate Contrary Motion);
+		Set Ultimate Charge(Victim, Ultimate Charge Percent(Event Player) - 20);
+		Wait(0.350, Ignore Condition);
+		Set Gravity(Victim, 100);
+	}
+}
+
+rule("moria impulse jump")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Is In Air(Event Player) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Facing Direction Of(Event Player) * -1, 3, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("moria orb activate")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.O = 1;
+		Wait(10, Ignore Condition);
+		Event Player.O = 0;
+	}
+}
+
+rule("moria e knock down")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Event Player.O == 1;
+		Is Button Held(Event Player, Button(Primary Fire)) == False;
+		Is Firing Secondary(Event Player) == False;
+		Is Using Ultimate(Event Player) == False;
+		Is In Air(Victim) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Event Player, Knocked Down, 1.200);
+	}
+}
+
+rule("moria e slow")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Move Speed(Victim, 30);
+		Wait(0.480, Ignore Condition);
+		Loop If Condition Is True;
+		Set Move Speed(Victim, 100);
+	}
+}
+
+rule("moira ult stun")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 200);
+		Set Gravity(Event Player, 0);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), Distance Between(Event Player.J, Victim) * 3, To World,
+			Incorporate Contrary Motion);
+		Set Status(Victim, Event Player, Stunned, 0.032);
+		Wait(0.640, Ignore Condition);
+		Loop If Condition Is True;
+		Set Gravity(Event Player, 100);
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("moira force push")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Distance Between(Players in View Angle(Event Player, Opposite Team Of(Team Of(Event Player)), 30), Event Player) < 5;
+	}
+
+	actions
+	{
+		Apply Impulse(Players in View Angle(Event Player, All Teams, 40), Vector Towards(Event Player, Players in View Angle(Event Player,
+			All Teams, 30)), 25, To World, Cancel Contrary Motion);
+		Set Status(Players in View Angle(Event Player, Opposite Team Of(Team Of(Event Player)), 10), Null, Stunned, 0.032);
+		Skip If(Event Player.Zoom != 1, 2);
+		Damage(Players in View Angle(Event Player, All Teams, 30), Event Player, 100);
+		Event Player.Zoom = 0;
+	}
+}
+
+rule("moira force pull")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Distance Between(Players in View Angle(Event Player, All Teams, 10), Event Player) < 6.750;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Skip If((Is In Air(Event Player) || Is In Air(Victim)) == False, 2);
+		Apply Impulse(Victim, Up, 8, To World, Incorporate Contrary Motion);
+		Apply Impulse(Event Player, Up, 2, To World, Incorporate Contrary Motion);
+		Apply Impulse(Victim, Facing Direction Of(Event Player), Distance Between(Event Player.J, Victim) * -3.250, To World,
+			Incorporate Contrary Motion);
+		Set Status(Victim, Null, Rooted, 0.500);
+		Event Player.Zoom = 1;
+		Wait(0.750, Ignore Condition);
+		Event Player.Zoom = 0;
+	}
+}
+
+rule("moria ult cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Stunned, 0.016);
+	}
+}
+
+rule("moria ult aim speed")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Aim Speed(Event Player, 10);
+		Wait(0.250, Ignore Condition);
+		Loop If Condition Is True;
+		Set Aim Speed(Event Player, 100);
+	}
+}
+
+rule("moria heal dash reset")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Event Player.O == 1;
+		Is Firing Secondary(Event Player) == False;
+	}
+
+	actions
+	{
+		Set Ability Cooldown(Event Player, Button(Ability 1), 0);
+	}
+}
+
+rule("moria damge by distance")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Firing Secondary(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.O = 100 * (10 / Distance Between(Position Of(Event Player), Position Of(Victim)));
+		Set Damage Dealt(Event Player, Min(150, Event Player.O));
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("moria secondary ult drain")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Is Firing Secondary(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 1);
+		Wait(0.320, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("moria second orb")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Moira;
+	}
+
+	conditions
+	{
+		Ultimate Charge Percent(Event Player) >= 50;
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+	}
+
+	actions
+	{
+		Set Ultimate Charge(Event Player, Ultimate Charge Percent(Event Player) - 50);
+		Set Ability Cooldown(Event Player, Button(Ability 2), 0);
+	}
+}
+
+rule("widow stupid right")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Throttle Of(Event Player) == Right;
+		Event Player.AM == 1;
+	}
+
+	actions
+	{
+		Start Throttle In Direction(Event Player.TargetPos, Right, 1, To Player, Replace existing throttle, None);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Stop Throttle In Direction(Event Player.TargetPos);
+	}
+}
+
+rule("widow stupid left")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Throttle Of(Event Player) == Left;
+		Event Player.AM == 1;
+	}
+
+	actions
+	{
+		Start Throttle In Direction(Event Player.TargetPos, Left, 1, To Player, Replace existing throttle, None);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Stop Throttle In Direction(Event Player.TargetPos);
+	}
+}
+
+rule("widow stupid back")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Throttle Of(Event Player) == Backward;
+		Event Player.AM == 1;
+	}
+
+	actions
+	{
+		Start Throttle In Direction(Event Player.TargetPos, Backward, 1, To Player, Replace existing throttle, None);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Stop Throttle In Direction(Event Player.TargetPos);
+	}
+}
+
+rule("widow stupid forward")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Throttle Of(Event Player) == Forward;
+		Event Player.AM == 1;
+	}
+
+	actions
+	{
+		Start Throttle In Direction(Event Player.TargetPos, Forward, 1, To Player, Replace existing throttle, None);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Stop Throttle In Direction(Event Player.TargetPos);
+	}
+}
+
+rule("widow i hate clone spawn")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is On Ground(Event Player) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Damage(Event Player, Event Player, Health(Event Player) / 1.500);
+		Create Effect(All Players(All Teams), Echo Cloning Effect, Color(White), Event Player, 1, Visible To Position and Radius);
+		Create Dummy Bot(Hero(Widowmaker), Team Of(Event Player), -1, Position Of(Event Player), Facing Direction Of(Event Player));
+		Event Player.TargetPos = Last Created Entity;
+		Event Player.Zoom = Eye Position(Event Player.TargetPos);
+		Event Player.AM = 1;
+		Wait(0.500, Ignore Condition);
+		Destroy All Effects;
+		Wait(0.500, Ignore Condition);
+		Event Player.Direction = 1;
+		Wait(4, Ignore Condition);
+		Destroy All Dummy Bots;
+		Event Player.AM = 0;
+		Event Player.Direction = 0;
+		Wait(10, Ignore Condition);
+	}
+}
+
+rule("widow tele to dummy")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Event Player.Direction == 1;
+		Is On Ground(Event Player) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Create Effect(All Players(All Teams), Echo Cloning Effect, Color(White), Event Player, 1, Visible To Position and Radius);
+		Wait(0.320, Ignore Condition);
+		Destroy All Effects;
+		Teleport(Event Player, Eye Position(Event Player.TargetPos));
+		Destroy All Dummy Bots;
+		Wait(2, Ignore Condition);
+		Event Player.Direction = 0;
+	}
+}
+
+rule("widow swing")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+		Event Player.Y = Health(Event Player) / 40;
+		Set Ability 1 Enabled(Event Player, False);
+		Wait(Event Player.Y, Ignore Condition);
+		Set Ability 1 Enabled(Event Player, True);
+	}
+}
+
+rule("widow mine slow")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Using Ability 2(Event Player) == True;
+		Is Firing Primary(Event Player) == False;
+		Is Meleeing(Event Player) != True;
+		"come backk2"
+		disabled Event Player.H != 1;
+	}
+
+	actions
+	{
+		Skip If(Victim == Event Player, 4);
+		Set Status(Victim, Null, Hacked, 1.200);
+		Set Move Speed(Victim, 50);
+		Wait(3, Ignore Condition);
+		Set Move Speed(Victim, 100);
+	}
+}
+
+rule("widow rappel cancel")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Rooted, 0.640);
+	}
+}
+
+rule("widow damage multipler")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Is Button Held(Event Player, Button(Secondary Fire)) == False;
+	}
+
+	actions
+	{
+		Damage(Victim, Null, Event Damage * (1 - 1.150 * Health(Event Player) / Max Health(Event Player)));
+	}
+}
+
+rule("widow kick damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) < 2;
+		Event Player.H == 1;
+	}
+
+	actions
+	{
+		Set Status(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Null, Knocked Down, 1.300);
+		Damage(Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player))), Event Player, 25);
+		Apply Impulse(Event Player, Facing Direction Of(Event Player), Distance Between(Event Player.J, Event Player) * -4, To World,
+			Cancel Contrary Motion);
+		Wait(0.300, Ignore Condition);
+		Clear Status(Event Player, Knocked Down);
+	}
+}
+
+rule("widow kick")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is In Air(Event Player) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Is Meleeing(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.H = 1;
+		Event Player.TargetPos = Altitude Of(Event Player);
+		Set Status(Event Player, Event Player, Knocked Down, 2.050);
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Apply Impulse(Event Player, Facing Direction Of(Event Player), Distance Between(Event Player.J, Event Player) * 15, To World,
+			Cancel Contrary Motion);
+		Wait(1, Ignore Condition);
+		Event Player.H = 0;
+		disabled Wait(4.250, Ignore Condition);
+	}
+}
+
+rule("widow up kick impulse down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		disabled Altitude Of(Event Player) > 3 + Event Player.TargetPos;
+		Event Player.H == 1;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Down, 5, To World, Cancel Contrary Motion);
+	}
+}
+
+rule("widow ult")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Using Ultimate(Event Player) == True;
+	}
+
+	actions
+	{
+		Damage(Event Player, Event Player, 108);
+	}
+}
+
+rule("widow speed by health remaining")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Gravity(Event Player, 100 * (1 + (1 - Health(Event Player) / Max Health(Event Player))));
+		Set Move Speed(Event Player, 100 * (1 + (1 - Health(Event Player) / Max Health(Event Player)) / 2));
+		Wait(0.250, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("widow kill health recovery")
+{
+	event
+	{
+		Player Dealt Final Blow;
+		All;
+		Widowmaker;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Primary Fire)) == True;
+		Is Button Held(Event Player, Button(Secondary Fire)) == False;
+	}
+
+	actions
+	{
+		Heal(Event Player, Event Player, 50);
+	}
+}
+
+disabled rule("Rule 203")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Baptiste;
+	}
+
+	conditions
+	{
+		Is Meleeing(Event Player) == True;
+		Is Firing Primary(Event Player) != True;
+	}
+
+	actions
+	{
+		Damage(Victim, Event Player, 20);
+		Wait Until(Is Meleeing(Event Player) == False, 1);
+	}
+}
+
+disabled rule("glitter")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+	}
+
+	actions
+	{
+		Event Player.M += 1;
+		Event Player.L = Eye Position(Event Player);
+		Create Effect(All Players(All Teams), Sparkles, Color(Orange), Event Player.L, 1, Visible To Position and Radius);
+		Chase Player Variable At Rate(Event Player, L, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 15, All Players(All Teams), Event Player, True), 20, Destination and Rate);
+		Wait(0.320, Ignore Condition);
+		Loop If(Event Player.M < 8);
+		Destroy All Effects;
+		Event Player.M = 0;
+		Event Player.L = 0;
+	}
+}
+
+disabled rule("merc slpe active")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Event Player.U != 0;
+	}
+
+	actions
+	{
+		Create Icon(All Players(All Teams), Players Within Radius(Event Player.L, 5, All Teams, Off), Spiral, Visible To and Position,
+			Color(Blue), True);
+		Wait(5, Ignore Condition);
+		Set Status(Event Player.U[0], Null, Asleep, 3);
+		Event Player.U = 0;
+		Destroy All Icons;
+	}
+}
+
+disabled rule("mecry slep")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Event Player.T == 1;
+	}
+
+	actions
+	{
+		Event Player.vel += 0.160;
+		Event Player.Y = 1;
+		Event Player.U = Append To Array(All Players(All Teams), Players Within Radius(Event Player.L, 5, All Teams, Off));
+		Skip If(Event Player.vel > 0.160, 2);
+		Create Effect(All Players(All Teams), Cloud, Color(Sky Blue), Event Player.L, 5, Visible To Position and Radius);
+		Event Player.S = Last Created Entity;
+		Wait(0.160, Ignore Condition);
+		Loop If(Event Player.vel <= 3);
+		Destroy Effect(Event Player.S);
+		Event Player.T = 0;
+		Event Player.Y = 0;
+		Event Player.vel = 0;
+	}
+}
+
+rule("mercin balz pull damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.L, Closest Player To(Event Player.L, Opposite Team Of(Team Of(Event Player)))) < 3;
+		Event Player.D == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Damage(Players Within Radius(Event Player.L, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, 110);
+		Set Status(Players Within Radius(Event Player.L, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Stunned,
+			0.160);
+		Apply Impulse(Players Within Radius(Event Player.L, 2.250, All Teams, Off), Facing Direction Of(Event Player) + Vector(0, 0.150,
+			0), -15, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("mecry ballz pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Firing Secondary(Event Player) == True;
+		Is Button Held(Event Player, Button(Interact)) != True;
+	}
+
+	actions
+	{
+		Event Player.T = 0;
+		Event Player.D = 1;
+		Event Player.G = Color(Sky Blue);
+		Chase Player Variable At Rate(Event Player, L, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 5.500, All Players(All Teams), Event Player, True), 20, Destination and Rate);
+		Wait(0.300, Ignore Condition);
+		Event Player.G = Color(White);
+		Event Player.D = 0;
+		Stop Chasing Player Variable(Event Player, L);
+		Chase Player Variable At Rate(Event Player, L, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 8, All Players(All Teams), Event Player, True), 2.200, Destination and Rate);
+		Wait(2.500, Ignore Condition);
+	}
+}
+
+rule("mercin balz push daamage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.L, Closest Player To(Event Player.L, Opposite Team Of(Team Of(Event Player)))) < 3;
+		Event Player.ProjectileSpeed == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Damage(Players Within Radius(Event Player.L, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, 70);
+		Set Status(Players Within Radius(Event Player.L, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Stunned,
+			0.240);
+		Apply Impulse(Players Within Radius(Event Player.L, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Facing Direction Of(
+			Event Player) + Vector(0, 0.150, 0), 20, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("mercin balz 2 pull damage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.M, Closest Player To(Event Player.M, Opposite Team Of(Team Of(Event Player)))) < 3;
+		Event Player.D == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Damage(Players Within Radius(Event Player.M, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, 110);
+		Set Status(Players Within Radius(Event Player.M, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Stunned,
+			0.160);
+		Apply Impulse(Players Within Radius(Event Player.M, 2.250, All Teams, Off), Facing Direction Of(Event Player) + Vector(0, 0.150,
+			0), -15, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("mecry ballz 2 pull")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Firing Secondary(Event Player) == True;
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		Event Player.T = 0;
+		Event Player.D = 1;
+		Event Player.mass = Color(Sky Blue);
+		Chase Player Variable At Rate(Event Player, M, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 5.500, All Players(All Teams), Event Player, True), 20, Destination and Rate);
+		Wait(0.300, Ignore Condition);
+		Event Player.mass = Color(Black);
+		Event Player.D = 0;
+		Stop Chasing Player Variable(Event Player, M);
+		Chase Player Variable At Rate(Event Player, M, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 8, All Players(All Teams), Event Player, True), 3.200, Destination and Rate);
+		Wait(2.500, Ignore Condition);
+	}
+}
+
+rule("mercin balz 2 push daamage")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Distance Between(Event Player.M, Closest Player To(Event Player.M, Opposite Team Of(Team Of(Event Player)))) < 3;
+		Event Player.ProjectileSpeed == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 2, Null, Event Player, True);
+		Damage(Players Within Radius(Event Player.M, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, 70);
+		Set Status(Players Within Radius(Event Player.M, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Stunned,
+			0.240);
+		Apply Impulse(Players Within Radius(Event Player.M, 2.250, Opposite Team Of(Team Of(Event Player)), Off), Facing Direction Of(
+			Event Player) + Vector(0, 0.150, 0), 20, To World, Incorporate Contrary Motion);
+	}
+}
+
+rule("mecry ballz 2 push")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Event Player.Y == 0;
+		Is Button Held(Event Player, Button(Interact)) == True;
+	}
+
+	actions
+	{
+		Event Player.Z = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 15, All Players(All Teams), Event Player, True);
+		Event Player.T = 0;
+		Event Player.ProjectileSpeed = 1;
+		Event Player.mass = Color(Green);
+		Chase Player Variable At Rate(Event Player, M, Event Player.Z, 15, None);
+		Wait Until(Event Player.M == Event Player.Z, 2);
+		Event Player.ProjectileSpeed = 0;
+		Stop Chasing Player Variable(Event Player, M);
+		Event Player.T = 1;
+		Event Player.mass = Color(Black);
+		Wait(1.250, Ignore Condition);
+	}
+}
+
+rule("merv ray cast stun")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Ray Cast Hit Player(Eye Position(Event Player), Event Player.L, All Players(Opposite Team Of(Team Of(Event Player))), Event Player,
+			True) == True;
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Is Button Held(Event Player, Button(Interact)) != True;
+		Event Player.grav == 1;
+	}
+
+	actions
+	{
+		Set Status(Ray Cast Hit Player(Eye Position(Event Player), Event Player.L, All Players Not On Objective(Opposite Team Of(Team Of(
+			Event Player))), Event Player, True), Event Player, Stunned, Max(-1, (15 - Distance Between(Eye Position(Event Player),
+			Event Player.L)) / 15));
+		Damage(Ray Cast Hit Player(Eye Position(Event Player), Event Player.L, All Players(All Teams), Event Player, True), Event Player,
+			60);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("mercy baulz shock")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) != True;
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Distance Between(Eye Position(Event Player), Event Player.L) < 15;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Event Player.grav == 0;
+	}
+
+	actions
+	{
+		Event Player.grav = 1;
+		Create Beam Effect(All Players(All Teams), Good Beam, Event Player, Event Player.L, Custom Color(255, 255, 0, 255),
+			Visible To Position and Radius);
+		Event Player.Direction = Last Created Entity;
+		Wait(0.120, Ignore Condition);
+		Event Player.G = Custom Color(255, 255, 0, 255);
+		Create Effect(All Players(All Teams), Bad Aura, Color(Yellow), Event Player.L, 2.500, Visible To Position and Radius);
+		Apply Impulse(Players Within Radius(Event Player.L, 2.250, All Teams, Off), Up, 8.500, To World, Incorporate Contrary Motion);
+		Event Player.Zoom = Last Created Entity;
+		Wait(0.250, Ignore Condition);
+		Destroy Effect(Event Player.Direction);
+		Destroy Effect(Event Player.Zoom);
+		Event Player.G = Color(White);
+		disabled Wait(2, Ignore Condition);
+		Create Beam Effect(All Players(All Teams), Good Beam, Event Player.L, Event Player.M, Custom Color(255, 255, 0, 255),
+			Visible To Position and Radius);
+		Event Player.Direction = Last Created Entity;
+		Wait(0.120, Ignore Condition);
+		Event Player.G = Custom Color(255, 255, 0, 255);
+		Create Effect(All Players(All Teams), Bad Aura, Color(Yellow), Event Player.M, 2.500, Visible To Position and Radius);
+		Apply Impulse(Players Within Radius(Event Player.M, 2.250, All Teams, Off), Up, 8.500, To World, Incorporate Contrary Motion);
+		Event Player.Zoom = Last Created Entity;
+		Wait(0.250, Ignore Condition);
+		Destroy Effect(Event Player.Direction);
+		Destroy Effect(Event Player.Zoom);
+		Event Player.G = Color(White);
+		Event Player.grav = 0;
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("merv 2 ray cast stun")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Ray Cast Hit Player(Eye Position(Event Player), Event Player.M, All Players(Opposite Team Of(Team Of(Event Player))), Event Player,
+			True) == True;
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Event Player.grav == 2;
+	}
+
+	actions
+	{
+		Set Status(Ray Cast Hit Player(Eye Position(Event Player), Event Player.M, All Players Not On Objective(Opposite Team Of(Team Of(
+			Event Player))), Event Player, True), Event Player, Stunned, Max(-1, (15 - Distance Between(Eye Position(Event Player),
+			Event Player.M)) / 15));
+		Damage(Ray Cast Hit Player(Eye Position(Event Player), Event Player.M, All Players(All Teams), Event Player, True), Event Player,
+			60);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("mercy 2 baulz shock")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Distance Between(Eye Position(Event Player), Event Player.M) < 15;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Event Player.grav == 0;
+	}
+
+	actions
+	{
+		Event Player.grav = 2;
+		Create Beam Effect(All Players(All Teams), Good Beam, Event Player, Event Player.M, Custom Color(255, 255, 0, 255),
+			Visible To Position and Radius);
+		Event Player.Direction = Last Created Entity;
+		Wait(0.120, Ignore Condition);
+		Event Player.G = Custom Color(255, 255, 0, 255);
+		Create Effect(All Players(All Teams), Bad Aura, Color(Yellow), Event Player.M, 2.500, Visible To Position and Radius);
+		Apply Impulse(Players Within Radius(Event Player.M, 2.250, All Teams, Off), Up, 8.500, To World, Incorporate Contrary Motion);
+		Event Player.Zoom = Last Created Entity;
+		Wait(0.250, Ignore Condition);
+		Destroy Effect(Event Player.Direction);
+		Destroy Effect(Event Player.Zoom);
+		Event Player.G = Color(White);
+		Create Beam Effect(All Players(All Teams), Good Beam, Event Player.M, Event Player.L, Custom Color(255, 255, 0, 255),
+			Visible To Position and Radius);
+		Event Player.Direction = Last Created Entity;
+		Wait(0.120, Ignore Condition);
+		Event Player.G = Custom Color(255, 255, 0, 255);
+		Create Effect(All Players(All Teams), Bad Aura, Color(Yellow), Event Player.L, 2.500, Visible To Position and Radius);
+		Apply Impulse(Players Within Radius(Event Player.L, 2.250, All Teams, Off), Up, 8.500, To World, Incorporate Contrary Motion);
+		Event Player.Zoom = Last Created Entity;
+		Wait(0.250, Ignore Condition);
+		Destroy Effect(Event Player.Direction);
+		Destroy Effect(Event Player.Zoom);
+		Event Player.G = Color(White);
+		Event Player.grav = 0;
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("merv 3 ray cast stun")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Ray Cast Hit Player(Event Player.L, Event Player.M, All Players(Opposite Team Of(Team Of(Event Player))), Event Player, True)
+			== True;
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+		Event Player.grav != 0;
+	}
+
+	actions
+	{
+		Wait(0.370, Ignore Condition);
+		Skip If(Ray Cast Hit Player(Event Player.L, Event Player.M, All Players(Opposite Team Of(Team Of(Event Player))), Event Player,
+			False) == False, 2);
+		Set Status(Ray Cast Hit Player(Event Player.L, Event Player.M, All Players Not On Objective(Opposite Team Of(Team Of(
+			Event Player))), Event Player, True), Event Player, Stunned, Max(-1, (15 - Distance Between(Eye Position(Event Player),
+			Event Player.M)) / 15));
+		Damage(Ray Cast Hit Player(Eye Position(Event Player), Event Player.M, All Players(All Teams), Event Player, True), Event Player,
+			60);
+		Wait(2, Ignore Condition);
+	}
+}
+
+rule("mecry ballz push")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Firing Primary(Event Player) == True;
+		Event Player.Y == 0;
+		Is Button Held(Event Player, Button(Interact)) != True;
+	}
+
+	actions
+	{
+		Event Player.Z = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 15, All Players(All Teams), Event Player, True);
+		Event Player.T = 0;
+		Event Player.ProjectileSpeed = 1;
+		Event Player.G = Color(Green);
+		Chase Player Variable At Rate(Event Player, L, Event Player.Z, 15, None);
+		Wait Until(Event Player.L == Event Player.Z, 2);
+		Event Player.ProjectileSpeed = 0;
+		Stop Chasing Player Variable(Event Player, L);
+		Event Player.T = 1;
+		Event Player.G = Color(White);
+		Wait(1.250, Ignore Condition);
+	}
+}
+
+rule("mercy baalz")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Reload)) == True;
+	}
+
+	actions
+	{
+		Event Player.M = Eye Position(Event Player) + Down;
+		Event Player.L = Eye Position(Event Player);
+		Event Player.mass = Color(Black);
+		Event Player.G = Custom Color(252, 252, 252, 50);
+		Create Effect(All Players(All Teams), Orb, Event Player.G, Event Player.L, 2.750, Visible To Position Radius and Color);
+		Create Effect(All Players(All Teams), Sphere, Color(Gray), Event Player.L, 0.450, Visible To Position Radius and Color);
+		Create Effect(All Players(All Teams), Orb, Event Player.mass, Event Player.M, 0.450, Visible To Position Radius and Color);
+		Chase Player Variable At Rate(Event Player, L, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 8, All Players(All Teams), Event Player, True), 2.200, Destination and Rate);
+		Chase Player Variable At Rate(Event Player, M, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 8, All Players(All Teams), Event Player, True), 3.200, Destination and Rate);
+		Wait(15, Ignore Condition);
+	}
+}
+
+rule("mercy healing packs")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		Mercy;
+	}
+
+	conditions
+	{
+		Event Was Health Pack == True;
+	}
+
+	actions
+	{
+		Damage(Event Player, Null, 45);
+	}
+}
+
+rule("winston succ")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+		Filtered Array(Players Within Radius(Event Player, 15, Opposite Team Of(Team Of(Event Player)), Surfaces And Enemy Barriers),
+			Is In View Angle(Event Player, Current Array Element, 45) && Is In Line of Sight(Event Player, Current Array Element,
+			Enemy Barriers Block LOS) && Is Alive(Current Array Element)) != Empty Array;
+		Event Player.succ_target == 0;
+		Distance Between(Event Player, Closest Player To(Event Player, Opposite Team Of(Team Of(Event Player)))) <= 3;
+		Has Status(Event Player, Frozen) == False;
+		Has Status(Event Player, Knocked Down) == False;
+		Has Status(Event Player, Stunned) == False;
+	}
+
+	actions
+	{
+		Event Player.succ_target = First Of(Sorted Array(Filtered Array(Players in View Angle(Event Player, Opposite Team Of(Team Of(
+			Event Player)), 45), Is In Line of Sight(Event Player, Current Array Element, Enemy Barriers Block LOS) && Is Alive(
+			Current Array Element) && Distance Between(Event Player, Current Array Element) <= 15), Distance Between(Event Player,
+			Current Array Element)));
+		Set Gravity(Event Player.succ_target, 0);
+		Start Facing(Event Player.succ_target, Direction Towards(Eye Position(Event Player.succ_target), Eye Position(Event Player)),
+			10000, To World, Direction and Turn Rate);
+	}
+}
+
+rule("winston succ stop")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == False;
+	}
+
+	actions
+	{
+		Clear Status(Event Player.succ_target, Stunned);
+		Set Gravity(Event Player.succ_target, 100);
+		Stop Facing(Event Player.succ_target);
+		Event Player.succ_target = 0;
+	}
+}
+
+rule("winston succ stop no or >: (")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Has Status(Event Player, Knocked Down) == True;
+	}
+
+	actions
+	{
+		Clear Status(Event Player.succ_target, Stunned);
+		Set Gravity(Event Player.succ_target, 100);
+		Stop Facing(Event Player.succ_target);
+		Event Player.succ_target = 0;
+	}
+}
+
+rule("winston succ loop")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Event Player.succ_target != 0;
+		Has Status(Event Player, Knocked Down) == False;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player.succ_target, Direction Towards(World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation), Eye Position(Event Player) + Facing Direction Of(Event Player) * 3), Distance Between(Eye Position(
+			Event Player) + Facing Direction Of(Event Player) * 3, World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation)) * 5, To World, Cancel Contrary Motion);
+		Apply Impulse(Event Player.succ_target, Direction Towards(World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation), Eye Position(Event Player) + Direction From Angles(Horizontal Facing Angle Of(Event Player),
+			Vertical Facing Angle Of(Event Player) + 10) * 5), 0.001, To World, Cancel Contrary Motion);
+		Apply Impulse(Event Player.succ_target, Direction Towards(World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation), Eye Position(Event Player) + Direction From Angles(Horizontal Facing Angle Of(Event Player),
+			Vertical Facing Angle Of(Event Player) + -10) * 5), 0.001, To World, Cancel Contrary Motion);
+		Apply Impulse(Event Player.succ_target, Direction Towards(World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation), Eye Position(Event Player) + Direction From Angles(Horizontal Facing Angle Of(Event Player) + 10,
+			Vertical Facing Angle Of(Event Player)) * 5), 0.001, To World, Cancel Contrary Motion);
+		Apply Impulse(Event Player.succ_target, Direction Towards(World Vector Of(Vector(0, 1, 0), Event Player.succ_target,
+			Rotation And Translation), Eye Position(Event Player) + Direction From Angles(Horizontal Facing Angle Of(Event Player) + -10,
+			Vertical Facing Angle Of(Event Player)) * 5), 0.001, To World, Cancel Contrary Motion);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("winston Stun if holding someone too long")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Secondary Fire)) == True;
+	}
+
+	actions
+	{
+		Wait(1.750, Ignore Condition);
+		Abort If Condition Is False;
+		Set Status(Event Player, Null, Knocked Down, 3);
+	}
+}
+
+rule("winston pillar")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 2)) == True;
+		Is On Ground(Event Player) == True;
+		Has Status(Event Player, Knocked Down) == False;
+		Has Status(Event Player, Stunned) == False;
+		Has Status(Event Player, Frozen) == False;
+	}
+
+	actions
+	{
+		Set Status(Event Player, Null, Knocked Down, 9999);
+		Event Player.P = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* 1.200, Null, Event Player, True);
+		Wait(0.675, Ignore Condition);
+		Play Effect(All Players(All Teams), Bad Pickup Effect, Custom Color(165, 42, 42, 255), Event Player.P, 1);
+		Play Effect(All Players(All Teams), Doomfist Meteor Strike Impact Effect, Color(Blue), Event Player.P, 1);
+		Play Effect(All Players(All Teams), Doomfist Meteor Strike Impact Sound, Color(White), Event Player, 200);
+		Clear Status(Event Player, Knocked Down);
+		Skip If(Is On Ground(Players Within Radius(Event Player.P, 3, Opposite Team Of(Team Of(Event Player)), Surfaces)) == False, 3);
+		Apply Impulse(Players Within Radius(Event Player.P, 4, All Teams, Surfaces), Up, 20, To World, Cancel Contrary Motion);
+		Set Status(Players Within Radius(Event Player.P, 4, Opposite Team Of(Team Of(Event Player)), Off), Event Player, Knocked Down,
+			1.250);
+		Damage(Players Within Radius(Event Player.P, 4, Opposite Team Of(Team Of(Event Player)), Surfaces), Event Player, 20);
+		Wait(1.600, Ignore Condition);
+		Event Player.P = 0;
+	}
+}
+
+rule("winston perrie")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Need Healing) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.Z == 1, 3);
+		Set Status(Event Player, Null, Frozen, 0.260);
+		Wait(0.016, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("winston perrie success")
+{
+	event
+	{
+		Player Took Damage;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Need Healing) == True;
+		Distance Between(Event Player, Attacker) < 10;
+	}
+
+	actions
+	{
+		Set Damage Received(Event Player, 0);
+		Set Status(Attacker, Null, Frozen, 2);
+		Event Player.Z = 1;
+		Wait(0.250, Ignore Condition);
+		Set Damage Received(Event Player, 100);
+		Event Player.Z = 0;
+	}
+}
+
+rule("winston setup")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(1, Ignore Condition);
+		Press Button(Event Player, Button(Ultimate));
+	}
+}
+
+rule("winston takedown")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		While(Is Using Ability 1(Event Player));
+			Attach Players(Players Within Radius(Eye Position(Event Player), 2.500, Opposite Team Of(Team Of(Event Player)), Off),
+				Event Player, Forward);
+			Set Status(Players Within Radius(Eye Position(Event Player), 2.500, Opposite Team Of(Team Of(Event Player)), Off), Event Player,
+				Stunned, 9999);
+			Wait(0.160, Ignore Condition);
+		End;
+		Detach Players(All Players(All Teams));
+		Clear Status(Players Within Radius(Eye Position(Event Player), 2.500, All Teams, Off), Stunned);
+		Wait(0.100, Ignore Condition);
+		Set Status(Players Within Radius(Eye Position(Event Player), 4, Opposite Team Of(Team Of(Event Player)), Off), Event Player,
+			Knocked Down, 1.200);
+	}
+}
+
+rule("wintson q")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Winston;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+		Has Status(Event Player, Hacked) != True;
+		Has Status(Event Player, Knocked Down) != True;
+		Has Status(Event Player, Stunned) != True;
+		Has Status(Event Player, Frozen) != True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.AM > 0, 2);
+		Press Button(Event Player, Button(Primary Fire));
+		Set Status(Event Player, Null, Rooted, 0.800);
+		Set Aim Speed(Event Player, 5);
+		Event Player.AM += 2;
+		Event Player.L = Eye Position(Event Player);
+		Skip If(Ray Cast Hit Player(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* Event Player.AM, All Players(All Teams), Event Player, True) == True, 1);
+		Event Player.R = Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player)
+			* Event Player.AM, All Players(All Teams), Event Player, True);
+		Play Effect(All Players(All Teams), Bad Pickup Effect, Custom Color(165, 42, 42, 255), Event Player.R, 1);
+		Play Effect(All Players(All Teams), Wrecking Ball Piledriver Impact Effect, Color(White), Event Player.R, 1);
+		Play Effect(All Players(All Teams), Ashe Dynamite Explosion Sound, Color(Orange), Event Player.R, 9999);
+		Set Status(Players Within Radius(Event Player.R, 2.500, All Teams, Off), Event Player, Stunned, Event Player.AM / 12);
+		Apply Impulse(Players Within Radius(Event Player.R, 1.750, All Teams, Off), Up, Event Player.AM * 1.250, To World,
+			Cancel Contrary Motion);
+		Wait(0.250, Ignore Condition);
+		Loop If(Event Player.AM < 11);
+		Event Player.AM = 0;
+		Set Aim Speed(Event Player, 100);
+		Wait(6.250, Ignore Condition);
+	}
+}
+
+rule("76 Initialize wall-cling")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Event Player.J == Null;
+		Distance Between(Eye Position(Event Player), Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player)
+			+ Facing Direction Of(Event Player) * 5, All Players(All Teams), Event Player, True)) <= 1;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Event Player.TargetPos == 0;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Doomfist Rising Uppercut Leap Effect, Color(White), Event Player, 1);
+		Play Effect(All Players(All Teams), Sombra Translocator Reappear Sound, Color(White), Position Of(Event Player), 120);
+		disabled Event Player.Direction = 1;
+		disabled Event Player.Zoom = -2.500;
+		disabled Set Facing(Event Player, Vector(-1 * X Component Of(Facing Direction Of(Event Player)), -0.400, -1 * Z Component Of(
+			Facing Direction Of(Event Player))), To World);
+		Event Player.J = Position Of(Event Player);
+		disabled Start Camera(Event Player, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + World Vector Of(Vector(
+			Event Player.Direction * Min(Event Player.Zoom / 2.500, -0.750), 0, 0), Event Player, Rotation) + Facing Direction Of(
+			Event Player) * Event Player.Zoom, All Players(All Teams), Event Player, False), Ray Cast Hit Position(Eye Position(
+			Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 200, All Players(All Teams), Event Player,
+			False), 60);
+		Skip If(Event Player.K == 1, 1);
+		Set Damage Dealt(Event Player, 120);
+		Skip If(Event Player.K == 0, 1);
+		Set Damage Dealt(Event Player, 160);
+		Wait(0.250, Ignore Condition);
+		Event Player.TargetPos = 1;
+	}
+}
+
+rule("76 Reset wall-cling by being far from cling point, by crouching, or by being near ground")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		disabled (Is Button Held(Event Player, Button(Crouch)) || Altitude Of(Event Player) <= 1.200 || Distance Between(Event Player,
+			Event Player.J) >= 0.500 || False) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Event Player.TargetPos == 1;
+	}
+
+	actions
+	{
+		Event Player.J = Null;
+		Event Player.TargetPos = 0;
+	}
+}
+
+rule("76 Reset wall-cling by taking damage")
+{
+	event
+	{
+		Player Took Damage;
+		All;
+		Soldier: 76;
+	}
+
+	actions
+	{
+		Event Player.J = Null;
+	}
+}
+
+rule("76 Apply wall-clinging")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Event Player.J != Null;
+	}
+
+	actions
+	{
+		Start Holding Button(Event Player, Button(Crouch));
+		Wait(0.250, Ignore Condition);
+		Set Move Speed(Event Player, Absolute Value(0));
+		Start Forcing Throttle(Event Player, 0, 0, 0, 0, 0, 0);
+	}
+}
+
+rule("76 Remove wall-clinging")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Event Player.J == Null;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Sombra Translocator Disappear Sound, Color(White), Position Of(Event Player), 120);
+		Wait(0.210, Ignore Condition);
+		Play Effect(All Players(All Teams), Doomfist Rising Uppercut Leap Effect, Color(White), Position Of(Event Player), 120);
+		Event Player.I = 1;
+		Skip If(Event Player.K == 1, 1);
+		Set Damage Dealt(Event Player, 100);
+		Skip If(Event Player.K == 0, 1);
+		Set Damage Dealt(Event Player, 150);
+		Stop Holding Button(Event Player, Button(Crouch));
+		Set Move Speed(Event Player, 250);
+		Stop Forcing Throttle(Event Player);
+		Wait(1.100, Ignore Condition);
+		Set Move Speed(Event Player, 100);
+		Event Player.I = 0;
+	}
+}
+
+rule("76 shoulder lefft?")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Wait(1, Ignore Condition);
+		Event Player.Direction = 1;
+		Event Player.Zoom = -2.500;
+		Start Camera(Event Player, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + World Vector Of(Vector(
+			Event Player.Direction * Min(Event Player.Zoom / 2.500, -0.750), 0, 0), Event Player, Rotation) + Facing Direction Of(
+			Event Player) * Event Player.Zoom, All Players(All Teams), Event Player, False), Ray Cast Hit Position(Eye Position(
+			Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 200, All Players(All Teams), Event Player,
+			False), 60);
+		Disallow Button(Event Player, Button(Ultimate));
+	}
+}
+
+rule("76 shoulder")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Event Player.G == 0;
+	}
+
+	actions
+	{
+		Wait(0.200, Ignore Condition);
+		Event Player.Direction = 1;
+		Event Player.Zoom = -2.500;
+		Start Camera(Event Player, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + World Vector Of(Vector(
+			Event Player.Direction * Min(Event Player.Zoom / -2.500, 0.750), 0, 0), Event Player, Rotation) + Facing Direction Of(
+			Event Player) * Event Player.Zoom, All Players(All Teams), Event Player, False), Ray Cast Hit Position(Eye Position(
+			Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 200, All Players(All Teams), Event Player,
+			False), 60);
+		Wait(0.250, Ignore Condition);
+		Event Player.G = 1;
+	}
+}
+
+rule("76 shoulder too")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Event Player.G == 1;
+	}
+
+	actions
+	{
+		Wait(0.200, Ignore Condition);
+		Event Player.Direction = 1;
+		Event Player.Zoom = -2.500;
+		Start Camera(Event Player, Ray Cast Hit Position(Eye Position(Event Player), Eye Position(Event Player) + World Vector Of(Vector(
+			Event Player.Direction * Min(Event Player.Zoom / 2.500, -0.750), 0, 0), Event Player, Rotation) + Facing Direction Of(
+			Event Player) * Event Player.Zoom, All Players(All Teams), Event Player, False), Ray Cast Hit Position(Eye Position(
+			Event Player), Eye Position(Event Player) + Facing Direction Of(Event Player) * 200, All Players(All Teams), Event Player,
+			False), 60);
+		Wait(0.250, Ignore Condition);
+		Event Player.G = 0;
+	}
+}
+
+rule("76 armor")
+{
+	event
+	{
+		Player Received Healing;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Event Was Health Pack == True;
+	}
+
+	actions
+	{
+		Add Health Pool To Player(Event Player, Armor, 25, False, True);
+	}
+}
+
+rule("76 reload bar")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Reloading(Event Player) == True;
+	}
+
+	actions
+	{
+		Create Progress Bar HUD Text(Event Player, Event Player.ProjectileSpeed, Custom String("Reloading"), Left, 0, Color(White), Color(
+			White), Visible To Values and Color, Default Visibility);
+		Event Player.ProjectileSpeed = 100;
+		Chase Player Variable At Rate(Event Player, ProjectileSpeed, 0, 166, Destination and Rate);
+		Wait(1.600, Ignore Condition);
+		Destroy All Progress Bar HUD Text;
+	}
+}
+
+rule("76 reload boost")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Primary Fire)) == True;
+		Is Reloading(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.ProjectileSpeed == 100, 9);
+		Skip If(Event Player.ProjectileSpeed <= 50, 8);
+		Play Effect(All Players(All Teams), Buff Impact Sound, Color(Gray), Position Of(Event Player), 120);
+		Play Effect(All Players(All Teams), Good Pickup Effect, Color(Gray), Event Player, 1);
+		Set Damage Dealt(Event Player, 150);
+		Set Ammo(Event Player, 0, 21);
+		Set Status(Event Player, Null, Stunned, 0.016);
+		Wait(0.500, Ignore Condition);
+		Event Player.K = 1;
+		Skip(2);
+		Skip If(Event Player.ProjectileSpeed > 50, 1);
+		Set Status(Event Player, Null, Stunned, 0.500);
+	}
+}
+
+rule("76 bash kd")
+{
+	event
+	{
+		Player Dealt Damage;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Event Player.D == 1;
+		Is Meleeing(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Status(Victim, Null, Knocked Down, 3 * (Health Of Type(Event Player, Armor) / 200));
+	}
+}
+
+rule("76 bash int")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Event Player.D = 1;
+		Wait(0.250, Ignore Condition);
+		Loop If Condition Is True;
+		Event Player.D = 0;
+	}
+}
+
+rule("76 ult to armor")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ultimate)) == True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Brigitte Repair Pack Armor Effect, Color(White), Event Player, 1);
+		Wait(0.160, Ignore Condition);
+		Play Effect(All Players(All Teams), Brigitte Repair Pack Armor Sound, Color(White), Position Of(Event Player), 105);
+		Add Health Pool To Player(Event Player, Armor, 1.100 * Ultimate Charge Percent(Event Player), False, True);
+		Set Ultimate Charge(Event Player, 0);
+		Wait(20, Ignore Condition);
+	}
+}
+
+rule("76 armor to ...")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Communicating(Event Player, Need Healing) == True;
+	}
+
+	actions
+	{
+		Play Effect(All Players(All Teams), Brigitte Whip Shot Heal Area Effect, Color(White), Event Player, 1);
+		Event Player.H = Health Of Type(Event Player, Armor);
+		Damage(Event Player, Null, Event Player.H + 10);
+		Play Effect(All Players(All Teams), Brigitte Whip Shot Heal Area Sound, Color(White), Position Of(Event Player), 105);
+		Heal(Event Player, Null, Event Player.H);
+		Wait(30, Ignore Condition);
+	}
+}
+
+rule("76 armor effects")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Alive(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Event Player.I == 1, 2);
+		Set Gravity(Event Player, 60 + Health Of Type(Event Player, Armor));
+		Set Move Speed(Event Player, Max(200 - Health Of Type(Event Player, Armor), 85));
+		Wait(0.500, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("76 damage reset")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Is Reloading(Event Player) == True;
+		Event Player.K == 1;
+	}
+
+	actions
+	{
+		Set Damage Dealt(Event Player, 100);
+	}
+}
+
+rule("76 armor hack")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		Soldier: 76;
+	}
+
+	conditions
+	{
+		Has Status(Event Player, Hacked) == True;
+	}
+
+	actions
+	{
+		Event Player.H = Health Of Type(Event Player, Armor);
+		Damage(Event Player, Null, Event Player.H + 10);
+	}
+}
